@@ -37,3 +37,8 @@ header img, .headings
 	vertical-align: middle;
 	margin: 0px;
 }
+
+main.h1
+{
+    text-align: center;   
+}
