@@ -1,0 +1,36 @@
+body 
+{
+	background-color: #bbbb;
+}
+
+body {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+  }
+header
+{
+	margin: 10px auto;
+	background-color: #fff;
+	border: 1px solid #bbb;
+	box-shadow: 0 0 30px #777;
+	text-align: center;
+    font-family: 'Tangerine', serif;
+}
+
+#header-h1
+{
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #aaa;
+} 
+.motto
+{
+    font-style: italic;
+    font-size: 14px;
+}
+
+header img, .headings 
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px;
+}
