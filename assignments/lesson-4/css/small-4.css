@@ -1,13 +1,14 @@
+*
+{ 
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
 #img-logo
 {
     max-width: 15%;
     min-width: 8%;
     height: auto;
-}
-
-body 
-{
-	background-color: #bbbb;
 }
 
 header
@@ -25,11 +26,6 @@ header
     font-size: 50px;
     text-shadow: 4px 4px 4px #aaa;
 } 
-.motto
-{
-    font-style: italic;
-    font-size: 20px;
-}
 
 header img, .headings 
 {
@@ -38,7 +34,62 @@ header img, .headings
 	margin: 0px;
 }
 
-main.h1
+.motto
 {
-    text-align: center;   
+    font-style: italic;
+    font-size: 20px;
 }
+
+nav
+{
+    padding: 1em 2em;
+    background: green;
+}
+nav ul
+{
+    margin:0px;
+    padding: 0px;
+}
+nav li
+{
+    display: inline;
+    margin-right: 1em;
+}
+
+nav li a
+{
+    color: #fff;
+}
+nav li > a 
+{
+    text-decoration: none;
+}
+
+body 
+    {
+        font-size: 16px;
+        line-height: 22px;
+        font-family: Ubuntu, sans-serif;
+        color: #990000;
+    }
+h1  
+    {
+        font-size: 25px;
+        color: #000000;
+        text-align: center;
+    }
+
+h2  
+    {
+        font-size: 18px;
+        text-align: center;
+        border-bottom: 1px solid #bbb;
+    }
+
+footer 
+    {
+        margin: 1.25rem auto;
+        padding: .5rem;
+        max-width: 900px;
+        font-size: 10px;
+    }
