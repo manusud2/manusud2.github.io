@@ -11,13 +11,23 @@
     height: auto;
 }
 
+#img-preston
+{
+    max-width: 100%;
+    min-width: 80%;
+    height: auto;
+    margin: 20px;
+    padding: 10px;
+}
+
 header
 {
 	margin: 10px auto;
-	background-color: #fff;
+	background-color: #fb6c03;
 	border: 1px solid #bbb;
 	box-shadow: 0 0 30px #777;
-	text-align: center;
+    text-align: center;
+    color: white;
 }
 
 #header-h1
@@ -40,27 +50,28 @@ header img, .headings
     font-size: 20px;
     margin: 5px;
     padding: 5px;
+    color: white;
 }
 
 nav
 {
     padding: 1em 2em;
-    background: green;
+    background: #02c2a9;
 }
 nav ul
 {
+    display: block;
     margin:10px;
     padding: 0px;
 }
 nav li
 {
-    display: block;
     margin-right: 1em;
 }
 
 nav li a
 {
-    color: #fff;
+    color: black;
 }
 nav li > a 
 {
@@ -71,19 +82,23 @@ nav li > a
 {
     background-color: #4CAF50;
 }
+
 body 
 {
     font-size: 16px;
     line-height: 22px;
     font-family: Ubuntu, sans-serif;
-    color: #990000;
+    color: black;
 }
 
 h1  
 {
     font-size: 25px;
+    background:#e7e7e5;
     color: #000000;
     text-align: center;
+    margin: 40px;
+    padding: 80px;
 }
 
 h2  
@@ -91,13 +106,19 @@ h2
     font-size: 18px;
     text-align: center;
     border-bottom: 1px solid #bbb;
+    margin: 40px;
+    padding: 80px;
+    background: #e7e7e5;
+    color: black;
 }
 
 footer 
 {
     margin: 1.25rem auto;
-    padding: .5rem;
+    padding: 40px;
     max-width: 900px;
-    font-size: 10px;
+    font-size: 15px;
+    background: #fb6c03;
+    color: black;
     text-align: center;
 }
