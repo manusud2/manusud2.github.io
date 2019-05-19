@@ -16,16 +16,13 @@
     max-width: 100%;
     min-width: 80%;
     height: auto;
-    margin: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 
 header
 {
-	margin: 10px auto;
+    margin: 0px;
 	background-color: #fb6c03;
-	border: 1px solid #bbb;
-	box-shadow: 0 0 30px #777;
     text-align: center;
     color: white;
 }
@@ -33,7 +30,7 @@ header
 #header-h1
 {
     font-family: 'Tangerine', serif;
-    font-size: 60px;
+    font-size: 50px;
     text-shadow: 5px 5px 5px #aaa;
 } 
 
@@ -48,31 +45,32 @@ header img, .headings
 {
     font-style: italic;
     font-size: 20px;
-    margin: 5px;
-    padding: 5px;
-    color: white;
+    margin: 15px;
+    color: black;
 }
 
 nav
 {
-    padding: 1em 2em;
     background: #02c2a9;
 }
+
 nav ul
 {
-    display: block;
-    margin:10px;
-    padding: 0px;
+    padding: 5px;
 }
+
 nav li
 {
-    margin-right: 1em;
+    display: block;
+    font-size: 20px;
+    padding: 3px;
 }
 
 nav li a
 {
     color: black;
 }
+
 nav li > a 
 {
     text-decoration: none;
@@ -80,7 +78,7 @@ nav li > a
 
 .active 
 {
-    background-color: #4CAF50;
+    background: green;
 }
 
 body 
@@ -91,32 +89,32 @@ body
     color: black;
 }
 
-h1  
+h4
 {
-    font-size: 25px;
-    background:#e7e7e5;
-    color: #000000;
     text-align: center;
-    margin: 40px;
-    padding: 80px;
 }
 
-h2  
+#main-h1
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+} 
+article  
 {
     font-size: 18px;
     text-align: center;
     border-bottom: 1px solid #bbb;
     margin: 40px;
-    padding: 80px;
+    padding: 10px;
     background: #e7e7e5;
     color: black;
 }
 
 footer 
 {
-    margin: 1.25rem auto;
-    padding: 40px;
-    max-width: 900px;
+    margin: 0px;
+    padding: 10px;
     font-size: 15px;
     background: #fb6c03;
     color: black;
