@@ -9,10 +9,11 @@ body
 main > h1 
 {
     text-align: center;
-    background-color: indianred;
+    background-color:#9ac78c;
     padding: 1em;
     margin-top: 0;
     margin-bottom: -0.5em;
+    font-family: 'Tangerine', serif;
 }
 
 img 
@@ -35,7 +36,7 @@ img
 .hikeStyles li > h2 
 {
     text-align: center;
-    background-color: burlywood;
+    background-color: #996d6d;
     margin-bottom: 0.5em;
 }
 
