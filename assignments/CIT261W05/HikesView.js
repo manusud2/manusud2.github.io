@@ -3,19 +3,24 @@ const imgBasePath = '//byui-cit.github.io/cit261/examples/';
 
 // since we have multiple methods we need to export, it would make sense to group them together with an object of some sort. This could be as simple as an object literal...or more complex as a class.
 
-class HikesView {
-  renderHikeList(hikeListElement, hikeList) {
+class HikesView 
+{
+  renderHikeList(hikeListElement, hikeList) 
+  {
     // I decided to let the controller handle where the list gets placed. So instead of getting the element here in the function, when I created the view I decided to pass the target element in.
-    // const hikeListElement = document.getElementById('hikes');
+    const hikeListElement = document.getElementById('hikes');
 
     hikeListElement.innerHTML = '';
     // the list of hikes doesn't exist here in the view either...so I've passed that in as well.
-    hikeList.forEach(hike => {
+    hikeList.forEach(hike => 
+      {
       // notice the call to 'this' below. 'this' is like adding './' at the beginning of a path. It helps the computer find things.
       hikeListElement.appendChild(this.renderOneHikeLight(hike));
-    });
+      });
   }
-  renderOneHikeLight(hike) {
+
+  renderOneHikeLight(hike) 
+  {
     const item = document.createElement('li');
     item.classList.add('light');
     // setting this to make getting the details for a specific hike easier later.
@@ -37,7 +42,9 @@ class HikesView {
 
     return item;
   }
-  renderOneHikeFull(parent, hike) {
+  
+  renderOneHikeFull(parent, hike) 
+  {
     const backButton = document.createElement('button');
     backButton.innerHTML = '&lt;- All Hikes';
     const item = document.createElement('li');
