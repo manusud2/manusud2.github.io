@@ -9,6 +9,7 @@ body
 main > h1 
 {
     text-align: center;
+    font-size: 40px;
     background-color:#9ac78c;
     padding: 1em;
     margin-top: 0;
