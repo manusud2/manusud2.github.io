@@ -17,7 +17,6 @@
     min-width: 70%;
     height: auto;
     padding: 10px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -73,6 +72,12 @@ nav li
 nav li a
 {
     color: black;
+}
+
+nav li a:hover
+{
+    color: white;
+    background-color: rgb(10, 56, 20);
 }
 
 nav li > a 
@@ -133,7 +138,7 @@ h4
     text-align: center;
 }
 
-.preston-5-day h5
+.preston-5-day h3
 {
     text-align: center;
 }
@@ -149,7 +154,6 @@ h4
 #main-h1
 {
     text-align: center;
-    font-size: 25px;
     margin: 10px;
 } 
 
