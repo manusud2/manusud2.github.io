@@ -11,15 +11,26 @@
     height: auto;
 }
 
-#img-preston
+.w-preston-div img
 {
-    position: absolute;
     max-width: 100%;
     min-width: 70%;
     height: auto;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.div-article article img
+{
+    float: right;
+    top: 25px;
+	right: 25px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+
 }
 
 header
@@ -53,14 +64,18 @@ header img, .headings
     color: black;
 }
 
-
-/* Media Query for medium + screens */
-nav {	margin: 0 auto;	max-width: 760px; background-color: #000;	}
+nav {margin: 0 auto; background-color: #02c2a9;	}
 .navigation { list-style: none; text-align: center; }
 .navigation li:first-child { display: block;}
 .navigation li { display: none;}
-.navigation a {	display: block;	color: #fff; padding: .75rem;	text-align: center;	text-decoration: none;}
-.navigation a:hover {	color: #000; background-color: #fff; font-weight: 700;	}
+.navigation a {	display: block;	color: black; padding: .75rem;	text-align: center;	text-decoration: none;}
+.navigation a:hover {	color: black; background-color: rgb(23, 70, 52); font-weight: 700;	}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+*/
+.responsive li { display: block; }
+
 
 .active 
 {
@@ -126,7 +141,6 @@ h4
 
 .preston-5-day img
 {
-    position: absolute;
     max-width: 100%;
     min-width: 70%;
     height: auto;

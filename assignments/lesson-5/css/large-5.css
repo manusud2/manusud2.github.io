@@ -7,5 +7,7 @@
 {
     .navigation li:first-child { display: none;	}
     .navigation li { display: inline-block; margin-right: 1rem;}	
-    .navigation li a { color: yellow;}
+    .navigation li a { color: black;}
+
+    .preston-5-day {display:none;}
 }
