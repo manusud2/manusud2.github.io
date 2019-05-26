@@ -4,12 +4,11 @@
    to the end of the class list like this in HTML Line #6.
    <ul class="navigation responsive">
   */
-  .navigation { list-style: none; text-align: center; }
+  .navigation {list-style: none; text-align: center; }
   .navigation li:first-child { display: block;}
-  .navigation li { display: none;}
-  .navigation a {	display: block;	color: #fff; padding: .75rem;	text-align: center;	text-decoration: none;}
-  .navigation a:hover {	color: #000; background-color: #fff; font-weight: 700;	}
-
+  .navigation li {display: none;}
+  .navigation a  {display: block;	color: #fff; padding: 3px;	text-align: center;	text-decoration: none;}
+  
   .responsive li 
   { 
       display: block; 
@@ -20,5 +19,5 @@
   {
     .navigation li:first-child { display: none;	}
     .navigation li { display: inline-block; margin-right: 1rem;}	
-    .navigation li a { color: yellow;}
+    .navigation li a { color: rgb(58, 58, 52);}
   }
