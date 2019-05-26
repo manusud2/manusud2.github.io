@@ -77,11 +77,6 @@ nav li > a
     text-decoration: none;
 }
 
-.navigation {list-style: none; text-align: center; }
-.navigation li:first-child { display: block;}
-.navigation li {display: none;}
-.navigation a  {display: block;	color: #fff; padding: 0px;	text-align: center;	text-decoration: none;}
-
 .active 
 {
     background: green;
@@ -107,9 +102,27 @@ body
 	left: 15px;
     background:  #02c2a9;
     opacity: 0.6;
-	border: 1px solid #000;
-	padding: 1.5rem;
-	box-shadow: 0 0 5px rgb(172, 164, 164);
+    border: 0px;
+    padding: 0.2rem;
+	box-shadow: 0 0 10px rgb(75, 72, 72);
+}
+
+.preston-stats p
+{
+    text-align: right;
+    color: white;
+}
+
+.preston-stats p span
+{
+    text-align: left;
+    color: yellow;
+}
+
+.preston-stats h3
+{
+    text-align: center;
+    color: white;
 }
 
 h4
@@ -123,6 +136,7 @@ h4
     font-size: 25px;
     margin: 10px;
 } 
+
 article  
 {
     font-size: 18px;

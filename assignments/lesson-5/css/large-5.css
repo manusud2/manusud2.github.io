@@ -5,12 +5,7 @@
    <ul class="navigation responsive">
   */
   
-  .responsive li 
-  { 
-      display: block; 
-  }
-
-  /* Media Query for medium + screens */
+   /* Media Query for medium + screens */
   @media only screen and (min-width: 32.5em) 
   {
     .navigation li:first-child { display: none;	}
