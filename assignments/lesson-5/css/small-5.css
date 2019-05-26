@@ -30,7 +30,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-
 }
 
 header
@@ -71,12 +70,7 @@ nav {margin: 0 auto; background-color: #02c2a9;	}
 .navigation li { display: none;}
 .navigation a {	display: block;	color: black; padding: .75rem;	text-align: center;	text-decoration: none;}
 .navigation a:hover {	color: black; background-color: rgb(23, 70, 52); font-weight: 700;	}
-
-/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
-  <ul class="navigation responsive">
-*/
 .responsive li { display: block; }
-
 
 .active 
 {
@@ -166,6 +160,17 @@ article
     color: black;
 }
 
+.final-page  
+{
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    margin: 40px;
+    padding: 10px;
+    background: #e7e7e5;
+    color: black;
+}
+
 footer 
 {
     margin: 0px;
@@ -174,4 +179,46 @@ footer
     background: #fb6c03;
     color: black;
     text-align: center;
+}
+
+.fa {
+    padding: 2px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-whatsapp {
+    background: #0f8022;
+    color: white;
+  }  
+
+  .final-page img
+  {
+    position: relative;
+    margin: 10px;
+    border: 0px;
+	box-shadow: 0 0 15px rgb(75, 72, 72);
 }
