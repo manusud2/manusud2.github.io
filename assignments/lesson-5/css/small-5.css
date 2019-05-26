@@ -41,12 +41,13 @@ header
     color: white;
 }
 
-#header-h1
+#header-p
 {
     font-family: 'Tangerine', serif;
-    font-size: 40px;
+    font-size: 45px;
     text-shadow: 5px 5px 5px #aaa;
     padding: 5px;
+    font-weight: bold;
 } 
 
 header img, .headings 
