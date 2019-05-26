@@ -1,0 +1,123 @@
+*
+{ 
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+#img-logo
+{
+    max-width: 15%;
+    min-width: 10%;
+    height: auto;
+}
+
+#img-preston
+{
+    max-width: 100%;
+    min-width: 80%;
+    height: auto;
+    padding: 20px;
+}
+
+header
+{
+    margin: 0px;
+	background-color: #fb6c03;
+    text-align: center;
+    color: white;
+}
+
+#header-h1
+{
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px #aaa;
+    padding: 10px;
+} 
+
+header img, .headings 
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 2px;
+}
+
+.motto
+{
+    font-style: italic;
+    font-size: 20px;
+    margin: 15px;
+    color: black;
+}
+
+nav
+{
+    background: #02c2a9;
+}
+
+nav ul
+{
+    padding: 0px;
+}
+
+nav li
+{
+    display: block;
+    font-size: 20px;
+    padding: 3px;
+}
+
+nav li a
+{
+    color: black;
+}
+
+nav li > a 
+{
+    text-decoration: none;
+}
+
+.active 
+{
+    background: green;
+}
+
+body 
+{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Ubuntu, sans-serif;
+    color: black;
+}
+
+h4
+{
+    text-align: center;
+}
+
+#main-h1
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+} 
+article  
+{
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    margin: 40px;
+    padding: 10px;
+    background: #e7e7e5;
+    color: black;
+}
+
+footer 
+{
+    margin: 0px;
+    padding: 10px;
+    font-size: 15px;
+    background: #fb6c03;
+    color: black;
+    text-align: center;
+}
