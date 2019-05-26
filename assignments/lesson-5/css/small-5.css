@@ -217,6 +217,9 @@ footer
 
   .final-page img
   {
+    max-width: 100%;
+    min-width: 70%;
+    height: auto;
     position: relative;
     margin: 10px;
     border: 0px;
