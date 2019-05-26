@@ -6,14 +6,14 @@
 
 #img-logo
 {
-    max-width: 15%;
-    min-width: 10%;
+    max-width: 10%;
+    min-width: 5%;
     height: auto;
 }
 
 #img-preston
 {
-    max-width: 90%;
+    max-width: 100%;
     min-width: 70%;
     height: auto;
     padding: 10px;
@@ -24,7 +24,7 @@
 header
 {
     margin: 0px;
-	background-color: #fb6c03;
+    background-color: #fb6c03;
     text-align: center;
     color: white;
 }
@@ -34,7 +34,7 @@ header
     font-family: 'Tangerine', serif;
     font-size: 40px;
     text-shadow: 5px 5px 5px #aaa;
-    padding: 10px;
+    padding: 5px;
 } 
 
 header img, .headings 
@@ -72,6 +72,7 @@ nav li
 nav li a
 {
     color: black;
+    padding: .75rem;
 }
 
 nav li a:hover
@@ -145,11 +146,12 @@ h4
 
 .preston-5-day img
 {
-    display: block;
+    max-width: 100%;
+    min-width: 70%;
+    height: auto;
+    padding: 10px;
     margin-left: auto;
-    margin-right: auto;
-    padding: 40px;
-}
+    margin-right: auto;}
 
 #main-h1
 {
