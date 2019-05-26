@@ -50,26 +50,19 @@ header img, .headings
     color: black;
 }
 
-nav
-{
-    background: #02c2a9;
-}
+.navigation {list-style: none; text-align: center;background: #02c2a9;}
+.navigation li:first-child { display: block;}
+.navigation li 
+ {
+  display: block;
+  font-size: 20px;
+  padding: 3px;
+ }
+ .navigation li a {display: block;	color: black; padding: 0px;	text-align: center;	text-decoration: none;}
 
 nav ul
 {
     padding: 0px;
-}
-
-nav li
-{
-    display: block;
-    font-size: 20px;
-    padding: 3px;
-}
-
-nav li a
-{
-    color: black;
 }
 
 nav li > a 

@@ -4,11 +4,7 @@
    to the end of the class list like this in HTML Line #6.
    <ul class="navigation responsive">
   */
-  .navigation {list-style: none; text-align: center; }
-  .navigation li:first-child { display: block;}
-  .navigation li {display: none;}
-  .navigation a  {display: block;	color: #fff; padding: 3px;	text-align: center;	text-decoration: none;}
-  
+ 
   .responsive li 
   { 
       display: block; 
