@@ -98,13 +98,13 @@ body
 .preston-stats 
 {
 	position: absolute;
-	top: 15px;
-	left: 15px;
-    background:  #02c2a9;
+	top: 25px;
+	left: 25px;
+    background:  #086155;
     opacity: 0.6;
     border: 0px;
-    padding: 0.2rem;
-	box-shadow: 0 0 10px rgb(75, 72, 72);
+    padding: 0.4rem;
+	box-shadow: 0 0 15px rgb(75, 72, 72);
 }
 
 .preston-stats p
