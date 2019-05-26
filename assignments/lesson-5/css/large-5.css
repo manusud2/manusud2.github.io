@@ -1,8 +1,7 @@
-@media only screen and (min-width: 32.5em) 
-{
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
     .navigation li:first-child { display: none;	}
     .navigation li { display: inline-block; margin-right: 1rem;}	
-    .navigation li a { color: black;}
-
+    .navigation li a { color: yellow;}
     .preston-5-day {display:none;}
 }
