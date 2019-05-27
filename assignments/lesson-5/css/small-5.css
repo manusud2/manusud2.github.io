@@ -13,16 +13,17 @@
 
 .w-preston-div img
 {
-    max-width: 100%;
-    min-width: 70%;
-    height: auto;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 10px;
 }
 
 .div-article article img
 {
+    max-width: 70%;
+    min-width: 20%;
     float: right;
     top: 25px;
 	right: 25px;
@@ -82,15 +83,15 @@ body
     position: relative;
     margin: 10px auto;
 }
-.preston-stats 
+.w-preston-div .preston-stats 
 {
 	position: absolute;
-	top: 25px;
-	left: 25px;
+	top: 2em;
+	left: 10em;
     background:  #086155;
     opacity: 0.6;
     border: 0px;
-    padding: 0.4rem;
+    padding: 1.2rem;
 	box-shadow: 0 0 15px rgb(75, 72, 72);
 }
 
@@ -193,8 +194,8 @@ footer
 
   .final-page img
   {
-    max-width: 100%;
-    min-width: 70%;
+    max-width: 60%;
+    min-width: 20%;
     height: auto;
     position: relative;
     margin: 10px;
