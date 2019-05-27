@@ -6,8 +6,8 @@
 
 #img-logo
 {
-    max-width: 10%;
-    min-width: 5%;
+    max-width: 20%;
+    min-width: 15%;
     height: auto;
 }
 
@@ -218,11 +218,11 @@ footer
 	box-shadow: 0 0 15px rgb(75, 72, 72);
 }
 
-nav {	margin: 0 auto;	background-color: rgb(86, 167, 156);	}
+nav {margin: 0 auto; padding: 10px; background-color: rgb(86, 167, 156);	}
 .navigation { list-style: none; text-align: center; }
-  .navigation li:first-child { display: block;}
-  .navigation li {display: none;}
-  .navigation a {display: block;	color: #fff; padding: .75rem;	text-align: center;	text-decoration: none;}
-  .navigation a:hover {	color: #000; background-color: #fff; font-weight: 700;	}
+.navigation li:first-child { display: block;}
+.navigation li {display: none;}
+.navigation a {display: block;	color: #fff; padding:.75rem;	text-align: center;	text-decoration: none;}
+.navigation a:hover {color: #000; background-color: #fff; font-weight: 700;	}
 
- .responsive li { display: block; }
+.responsive li {display: block; }
