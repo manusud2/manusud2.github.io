@@ -117,23 +117,7 @@ h4
     text-align: center;
 }
 
-.preston-5-day
-{
-    position: relative;
-}
-.preston-5-day h3
-{
-    text-align: center;
-}
-
-.preston-5-day img
-{
-    max-width: 100%;
-    min-width: 70%;
-    height: auto;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;}
+.preston-5-day {display: none;}
 
 #main-h1
 {
@@ -218,7 +202,7 @@ footer
 	box-shadow: 0 0 15px rgb(75, 72, 72);
 }
 
-nav {margin: 0 auto; padding: 10px; background-color: rgb(86, 167, 156);	}
+nav {margin: 0 auto; background-color: rgb(86, 167, 156);	}
 .navigation { list-style: none; text-align: center; }
 .navigation li:first-child { display: block;}
 .navigation li {display: none;}
