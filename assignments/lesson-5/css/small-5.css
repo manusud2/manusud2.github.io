@@ -6,9 +6,8 @@
 
 #img-logo
 {
-    max-width: 20%;
+    max-width: 15%;
     min-width: 15%;
-    height: auto;
 }
 
 .w-preston-div img
@@ -41,7 +40,7 @@ header
     color: white;
 }
 
-#header-p
+#header-site
 {
     font-family: 'Tangerine', serif;
     font-size: 45px;
@@ -85,7 +84,8 @@ body
 }
 .w-preston-div .preston-stats 
 {
-	position: absolute;
+    float: right;
+    position: absolute;
 	top: 2em;
 	left: 10em;
     background:  #086155;
@@ -194,20 +194,19 @@ footer
 
   .final-page img
   {
-    max-width: 60%;
-    min-width: 20%;
-    height: auto;
+    max-width: 20%;
+    min-width: 15%;
     position: relative;
     margin: 10px;
     border: 0px;
 	box-shadow: 0 0 15px rgb(75, 72, 72);
 }
 
-nav {margin: 0 auto; background-color: rgb(86, 167, 156);	}
+nav {background-color: rgb(86, 167, 156);}
 .navigation { list-style: none; text-align: center; }
 .navigation li:first-child { display: block;}
 .navigation li {display: none;}
-.navigation a {display: block;	color: #fff; padding:.75rem;	text-align: center;	text-decoration: none;}
-.navigation a:hover {color: #000; background-color: #fff; font-weight: 700;	}
+.navigation a {display: block;	color: #fff; padding:.75rem; text-align: center;	text-decoration: none;}
+.navigation a:hover {color: #000; background-color:rgb(86, 167, 156);}
 
 .responsive li {display: block; }
