@@ -118,10 +118,10 @@ body
     bottom: 2em;
     right: 10em;
     background:  white;
-    opacity: 1.6;
+    opacity: 0.7;
     border: 0px;
-    padding: 1.2rem;
-	box-shadow: 0 0 15px rgb(75, 72, 72);
+    padding: 0.2rem;
+	box-shadow: 0 0 5px rgb(75, 72, 72);
 }
 
 .text-overlay:before {
