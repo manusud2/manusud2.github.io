@@ -1,0 +1,18 @@
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) 
+{
+    .navigation li:first-child { display: none;	}
+    .navigation li { display: inline-block;}	
+    .navigation li a { color: rgb(34, 18, 56);}
+        
+    .preston-5-day{position: relative;display:block;}
+    .preston-5-day h3{text-align: center;}
+
+    .preston-5-day img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
