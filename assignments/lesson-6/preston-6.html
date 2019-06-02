@@ -16,9 +16,9 @@
   <body>
       
     <header>
+      <h1 id="header-site">My Weather Site</h1>
       <img id="img-logo" src="images/logo.png" alt="The Weather Logo">
       <section class="headings">
-        <h1 id="header-site">My Weather Site</h1>
         <div class="motto">Your weather today, tomorrow and anytime you want</div>
      </section>
       
@@ -43,21 +43,22 @@
           <source media="(max-width: 549px)" srcset="images/MainImageSmall.jpeg">
           <source media="(min-width: 550px)" srcset="images/MainImageLarge.jpeg">
           <img src="images/MainImageLarge.jpeg" alt="The Preston City Today">
+       </picture>
+ 
+       <section class="preston-stats">
+        <h3>Weather Summary</h3>
+        <p> Currently: <span>Sunny</span></p>
+        <p>      High: <span>76 ºF</span></p>
+        <p>Wind Chill: <span>78 ºF</span></p>
+        <p>  Humidity: <span>69%</span></p>
+        <p>Wind Speed: <span>5 mph</span></p>
+      </section>
+    
+      <section class="text-overlay">
+        <h3 class="text-image"> SIZE</h3>
+      </section>
 
-        <section class="preston-stats">
-            <h3>Weather Summary</h3>
-            <p> Currently: <span>Sunny</span></p>
-            <p>      High: <span>76 ºF</span></p>
-            <p>Wind Chill: <span>78 ºF</span></p>
-            <p>  Humidity: <span>69%</span></p>
-            <p>Wind Speed: <span>5 mph</span></p>
-        </section>
-        
-        <section class="text-overlay">
-          <h3 class="text-image"></h3>
-        </section>
-      </picture>
-    </div>
+      </div>
       
       <div class = "preston-5-day">
         <h3>5 Day Forecast</h3>
