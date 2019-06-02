@@ -10,7 +10,7 @@
     min-width: 15%;
 }
 
-.w-preston-div img
+.w-preston-div picture img
 {
   display: block;
   margin-left: auto;
@@ -84,12 +84,11 @@ body
 }
 .w-preston-div .preston-stats 
 {
-    float: right;
     position: absolute;
 	top: 2em;
 	left: 10em;
     background:  #086155;
-    opacity: 0.6;
+    opacity: 0.8;
     border: 0px;
     padding: 1.2rem;
 	box-shadow: 0 0 15px rgb(75, 72, 72);
@@ -107,11 +106,27 @@ body
     color: yellow;
 }
 
-.preston-stats h3
+.w-preston-div .text-overlay h3
 {
     text-align: center;
-    color: white;
+    color: black;
 }
+
+.w-preston-div .text-overlay 
+{
+    position: absolute;
+    bottom: 2em;
+    right: 10em;
+    background:  white;
+    opacity: 1.6;
+    border: 0px;
+    padding: 1.2rem;
+	box-shadow: 0 0 15px rgb(75, 72, 72);
+}
+
+.text-overlay:before {
+    content: "SMALL";
+  }
 
 h4
 {
