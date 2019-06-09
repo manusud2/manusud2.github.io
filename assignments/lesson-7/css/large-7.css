@@ -51,11 +51,16 @@
  
     .grid-container 
     {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    justify-items: center;
-    align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .grid-item:hover 
+    {
+        box-shadow: 0 0 20px #333;
     }
 
 }

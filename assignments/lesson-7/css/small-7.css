@@ -293,11 +293,6 @@ figcaption
     padding: 1px;
 }
 
-.grid-item:hover 
-{
-    box-shadow: 0 0 20px #333;
-}
-
 .grid-item 
 {
     box-shadow: 0 0 1px #333;
