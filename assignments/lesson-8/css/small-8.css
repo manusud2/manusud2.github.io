@@ -1,0 +1,303 @@
+*
+{ 
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+#img-logo
+{
+    max-width: 15%;
+    min-width: 15%;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background-color: #fb6c03;
+    text-align: center;
+    color: white;
+}
+
+#header-site
+{
+    font-family: 'Tangerine', serif;
+    font-size: 45px;
+    text-shadow: 5px 5px 5px #aaa;
+    padding: 5px;
+    font-weight: bold;
+} 
+
+header img, .headings 
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.motto
+{
+    font-style: italic;
+    font-size: 15px;
+    margin: 5px;
+    color: black;
+}
+
+.active 
+{
+    background: green;
+}
+
+body 
+{
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Ubuntu, sans-serif;
+    color: black;
+    align-content: center;
+}
+
+#main-h1
+{
+    text-align: center;
+    margin: 10px;
+} 
+
+.final-page  
+{
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    margin: 40px;
+    padding: 10px;
+    background: #e7e7e5;
+    color: black;
+}
+
+footer 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+    font-size: 15px;
+    background: #fb6c03;
+    color: black;
+    text-align: center;
+}
+
+.fa {
+    padding: 2px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-whatsapp {
+    background: #0f8022;
+    color: white;
+  }  
+
+  .final-page img
+  {
+    max-width: 30%;
+    min-width: 25%;
+    position: relative;
+    margin: 10px;
+    border: 0px;
+	box-shadow: 0 0 15px rgb(75, 72, 72);
+}
+
+nav 
+{
+    display: flex;
+    background-color: rgb(86, 167, 156);
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.navigation 
+{ 
+    list-style: none;
+    text-align: center;
+    display: flex;
+	flex-direction: column;
+}
+
+.navigation li:first-child 
+{
+     display: block;
+}
+
+.navigation li 
+{
+    display: none;
+}
+
+.navigation a 
+{
+    display: block;	
+    color: #fff; 
+    padding:.75rem; 
+    text-align: center;	
+    text-decoration: none;}
+
+.navigation a:hover 
+{
+    color: #000; 
+    background-color:rgb(25, 95, 86);
+}
+
+.responsive li 
+{
+    display: block; 
+}
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Form CSS */
+form 
+{
+    align-content: center;
+}
+form label.top, form div
+{
+	display: block;
+	padding-top: 0.5rem;
+	color: #0d311f;
+    font-size: 13px;
+    text-align:center;
+}
+
+form label.top input , form label.top select, form label.top textarea 
+{
+	-webkit-appearance: none;
+	display: block;
+	font-size: 1rem;
+	border: solid 1px rgb(5, 36, 18);
+	border-radius: 3px;
+	padding: .75rem;
+	color: rgb(14, 128, 33);
+	width: 100%;
+	max-width: 28rem;
+	background-color: rgba(0,0,0,0.1);
+    margin:0 auto;
+}
+
+form input.submitBtn
+{
+    display: block;
+    border:none;
+	background-color: green;
+	color: white;
+	border-radius: 2rem;
+	padding: 1rem 2rem;
+    width: 100%;
+    max-width: 28rem;
+    margin:12px auto;
+}
+
+form label.top input:required
+{
+	border-top: red solid 10px;
+}
+
+form label.top input:required:valid
+{
+	border-top: green solid 10px;
+}
+
+form .slider {
+    -webkit-appearance: none;
+    display: block;
+    width: 100%;
+    max-width: 28rem;
+    margin:12px auto;
+    height: 10px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  form .slider:hover {
+    opacity: 1;
+  }
+  
+  form .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+  form .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+  }
+  
+form fieldset
+{
+    border-radius: .6rem;
+    border-color: #000;
+    border: solid 1px rgb(5, 36, 18);
+    width: 100%;
+    max-width: 28rem;
+    margin:12px auto;
+    text-align:center;
+    font-size: 13px;
+
+}
+
+.radio
+{
+    padding: 2rem;
+    
+}	
+
+#slider-value
+{
+    max-width: 28rem;
+    margin:0 auto;
+    text-align:center;
+    font-size: 13px;  
+}
