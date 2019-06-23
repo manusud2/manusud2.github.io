@@ -1,0 +1,44 @@
+/* Media Query for medium + screens */
+@media only screen and (min-width: 769px) 
+{
+    .navigation li:first-child 
+    { 
+        display: none;	
+    }
+        
+    .navigation li 
+    {
+        display: inline-block;
+    }	
+    
+    .navigation li a 
+    { 
+        color: rgb(34, 18, 56);
+    }
+    
+    .navigation a:hover 
+    {
+        color: #000; background-color:rgb(25, 95, 86);
+    }
+        
+    .navigation, .container 
+    {
+         flex-direction: row; 
+    }
+
+    .grid-container 
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .grid-item:hover 
+    {
+        box-shadow: 0 0 20px #333;
+    }
+
+}
+}
