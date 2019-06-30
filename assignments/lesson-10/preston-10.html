@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/small-10.css">
+    <link rel="stylesheet" href="css/large-10.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Preston Weather Page - CIT230 - Web Front-end Development at Brigham Young University-Idaho.">
+    <script src="scripts/hamburger.js"></script>
+    <title>Preston | Weather</title>
+  </head>
+
+  <body>
+      
+    <header>
+      <img id="img-logo" src="images/logo.png" alt="The Weather Logo">
+      <div class="headings">
+        <p id="header-site">My Weather Site</p>
+        <div class="motto">Your weather today, tomorrow and anytime you want</div>
+     </div>
+    </header>
+  
+     <nav>
+      <ul class="navigation">
+        <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="/assignments/lesson-9/index.html" title="Home">Home</a></li>
+        <li><a href="#" class="active" title="Preston">Preston</a></li>
+        <li><a href="#" title="Soda Springs">Soda Springs</a></li>
+        <li><a href="#" title="Fish Haven">Fish Haven</a></li>
+        <li><a href="/assignments/lesson-8/stormcenter.html" title="Storm Center">Storm Center</a></li>
+        <li><a href="/assignments/lesson-7/gallery-7.html" title="Gallery">Gallery</a></li>
+      </ul>
+    </nav>
+        
+    <main>
+      <h1 id="main-h1">Preston Idaho</h1>
+      
+      <div class="w-preston-div">
+        <picture>
+          <source media="(max-width: 549px)" srcset="images/MainImageSmall.jpeg">
+          <source media="(min-width: 550px)" srcset="images/MainImageLarge.jpeg">
+          <img src="images/MainImageLarge.jpeg" alt="The Preston City Today">
+       </picture>
+ 
+       <section class="preston-stats">
+        <h3>Weather Summary</h3>
+        <p> Currently: <span>Sunny</span></p>
+        <p>      High: <span id="temperature">76</span><span>ºF</span></p>
+        <p>Wind Chill: <span id="wind-chill"></span><span>ºF</span></p>
+        <p>  Humidity: <span>69%</span></p>
+        <p>Wind Speed: <span id="wind-speed">5</span><span>mph</span></p>
+      </section>
+    
+      <section class="text-overlay">
+        <h3 class="text-image">Size</h3>
+      </section>
+
+      </div>
+      
+      <div class = "preston-5-day">
+        <h3>5 Day Forecast</h3>
+        <img id="img-preston-5d" src="images/5-days-weather.png" alt="5 day forecast">
+      </div>
+      
+      <div class="div-article">
+        
+        <article>
+          <h2>About this City</h2>
+          <img src="images/Preston_Image2.jpg" alt="The Preston City History">
+          <p>
+                  Preston, Idaho is one of the best kept secrets of the West.
+                  Nestled on the Idaho side of beautiful Cache Valley and surrounded 
+                  by towering mountains on each side, it is unbeatable for recreation 
+                  opportunities, has that small town feeling, and is close to whatever 
+                  you need.  
+        
+                  It is one of the safest places to live in the State of Idaho and in 
+                  Cache Valley.
+          </p><br>
+          <p>        
+                  For several years the city held a "Napoleon Dynamite Festival" in the summer.
+                  Many of the featured festival themes related to events occurring during the film. 
+                  For example: Tetherball Tournament, Tater Tot Eating Contest, Moon Boot Dance, 
+                  Impersonation, Look-A-Like Contest, Football Throwing Contest and more. 
+                  In 2004 there was a single day event that drew approximately 300 people. 
+                  Although this was not a large crowd, it did help raise $1,500 for the Preston 
+                  School District Education Foundation. In 2005 an estimated 6,000 people attended 
+                  the event, but that number dropped to an estimated 400 people in 2006. The 2007 and
+                   2008 event was held along with the 'That Famous Preston Night Rodeo' in Preston. 
+                   There are no plans for reviving the event. 'That Famous Preston Night Rodeo' is 
+                   usually held in late July, along with the Franklin County parade. The rodeo's name 
+                   ('That Famous Preston Night Rodeo') comes from it being the first rodeo held during 
+                   night time. It includes many events such as bull riding, barrel racing, and other 
+                   popular events. The Franklin county parade includes floats and advertisements of 
+                   local businesses. The rodeo and parade remain one of the town's most popular local 
+                   events and traditions.
+          </p>
+        </article>
+      </div>
+
+      <div class = "final-page">
+        <p>My Weather Site</p>
+        <p>30N 1st E</p>
+        <p>Preston, ID 83263</p><br>
+        <p>&#9742; 999.999.9999</p>
+        <p>&#9993; myweathersite.com</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-whatsapp"></a>
+        <a href="#" class="fa fa-pinterest"></a> <br>     
+        <img class="img-map" src="images/map_preston.png" alt="The Preston Map">
+      </div>
+
+    </main>
+    
+    <footer>
+      <p>&copy;2019 My Weather Site | CIT230 | Luiz Manoel Costa<p> 
+      <p>Idaho, <span id="currentDate"></span></p>
+    </footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+  </body>
+
+</html>

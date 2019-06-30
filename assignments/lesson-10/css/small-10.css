@@ -10,6 +10,28 @@
     min-width: 15%;
 }
 
+.w-preston-div picture img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+.div-article article img
+{
+    max-width: 70%;
+    min-width: 20%;
+    float: right;
+    top: 25px;
+	right: 25px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
 header
 {
     display: flex;
@@ -53,17 +75,85 @@ header img, .headings
 body 
 {
     font-size: 16px;
-    line-height: 16px;
+    line-height: 20px;
     font-family: Ubuntu, sans-serif;
     color: black;
-    align-content: center;
 }
+
+.w-preston-div
+{
+    position: relative;
+    margin: 10px auto;
+}
+.w-preston-div .preston-stats 
+{
+    position: absolute;
+	top: 2em;
+	left: 10em;
+    background:  #086155;
+    opacity: 0.8;
+    border: 0px;
+    padding: 1.2rem;
+	box-shadow: 0 0 15px rgb(75, 72, 72);
+}
+
+.preston-stats p
+{
+    text-align: right;
+    color: white;
+}
+
+.preston-stats p span
+{
+    text-align: left;
+    color: yellow;
+}
+
+.w-preston-div .text-overlay h3
+{
+    text-align: center;
+    color: black;
+}
+
+.w-preston-div .text-overlay 
+{
+    position: absolute;
+    bottom: 2em;
+    right: 10em;
+    background:  white;
+    opacity: 0.7;
+    border: 0px;
+    padding: 0.2rem;
+	box-shadow: 0 0 5px rgb(75, 72, 72);
+}
+
+.text-overlay:before {
+    content: "Small";
+  }
+
+h4
+{
+    text-align: center;
+}
+
+.preston-5-day {display: none;}
 
 #main-h1
 {
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 } 
+
+article  
+{
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    margin: 40px;
+    padding: 10px;
+    background: #e7e7e5;
+    color: black;
+}
 
 .final-page  
 {
@@ -180,7 +270,6 @@ nav
     display: block; 
 }
 
-
 .grid-container 
 {
     display: grid;
@@ -197,10 +286,11 @@ figure
 
 figcaption 
 {
-    text-align: center;
+    text-align: left;
     display: table-caption; 
-    caption-side: top;
-    padding: 15px;
+    caption-side: bottom;
+    font-size: 10px;
+    padding: 1px;
 }
 
 .grid-item 
@@ -211,28 +301,4 @@ figcaption
 {
      width: auto; 
      height: auto;
-}
-
-figcaption h3
-{
-    font-size: 23px;
-    font-weight: bold;
-    color: rgb(13, 80, 30);
-    margin: 8px;
-}
-
-figcaption h4 
-{
-    font-size: 15px;
-    font-weight: bold;
-    font-style: italic;
-    color: black;
-    margin: 10px;
-}
-
-figcaption p 
-{
-    font-size: 12px;
-    font-weight: bold;
-    color: black;
 }

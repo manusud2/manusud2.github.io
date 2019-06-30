@@ -1,0 +1,11 @@
+@media only screen and (min-width: 550px) 
+{
+    .grid-container 
+    {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    }
+}

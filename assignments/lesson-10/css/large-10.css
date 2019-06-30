@@ -25,7 +25,30 @@
     {
          flex-direction: row; 
     }
+    
+    .preston-5-day
+    {
+        position: relative;display:block;
+    }
+    
+    .preston-5-day h3
+    {
+        text-align: center;
+    }
 
+    .preston-5-day img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .text-overlay:before 
+    {
+        content: "Large";
+    }
+ 
     .grid-container 
     {
         display: grid;
@@ -40,5 +63,4 @@
         box-shadow: 0 0 20px #333;
     }
 
-}
 }
