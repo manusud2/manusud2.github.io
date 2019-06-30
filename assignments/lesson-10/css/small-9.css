@@ -1,0 +1,238 @@
+*
+{ 
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+#img-logo
+{
+    max-width: 15%;
+    min-width: 15%;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    background-color: #fb6c03;
+    text-align: center;
+    color: white;
+}
+
+#header-site
+{
+    font-family: 'Tangerine', serif;
+    font-size: 45px;
+    text-shadow: 5px 5px 5px #aaa;
+    padding: 5px;
+    font-weight: bold;
+} 
+
+header img, .headings 
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.motto
+{
+    font-style: italic;
+    font-size: 15px;
+    margin: 5px;
+    color: black;
+}
+
+.active 
+{
+    background: green;
+}
+
+body 
+{
+    font-size: 16px;
+    line-height: 16px;
+    font-family: Ubuntu, sans-serif;
+    color: black;
+    align-content: center;
+}
+
+#main-h1
+{
+    text-align: center;
+    margin: 20px;
+} 
+
+.final-page  
+{
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    margin: 40px;
+    padding: 10px;
+    background: #e7e7e5;
+    color: black;
+}
+
+footer 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+    font-size: 15px;
+    background: #fb6c03;
+    color: black;
+    text-align: center;
+}
+
+.fa {
+    padding: 2px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-whatsapp {
+    background: #0f8022;
+    color: white;
+  }  
+
+  .final-page img
+  {
+    max-width: 30%;
+    min-width: 25%;
+    position: relative;
+    margin: 10px;
+    border: 0px;
+	box-shadow: 0 0 15px rgb(75, 72, 72);
+}
+
+nav 
+{
+    display: flex;
+    background-color: rgb(86, 167, 156);
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.navigation 
+{ 
+    list-style: none;
+    text-align: center;
+    display: flex;
+	flex-direction: column;
+}
+
+.navigation li:first-child 
+{
+     display: block;
+}
+
+.navigation li 
+{
+    display: none;
+}
+
+.navigation a 
+{
+    display: block;	
+    color: #fff; 
+    padding:.75rem; 
+    text-align: center;	
+    text-decoration: none;}
+
+.navigation a:hover 
+{
+    color: #000; 
+    background-color:rgb(25, 95, 86);
+}
+
+.responsive li 
+{
+    display: block; 
+}
+
+
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+  
+figure 
+{
+    display: table;
+}
+
+figcaption 
+{
+    text-align: center;
+    display: table-caption; 
+    caption-side: top;
+    padding: 15px;
+}
+
+.grid-item 
+{
+    box-shadow: 0 0 1px #333;
+}
+.grid-item img 
+{
+     width: auto; 
+     height: auto;
+}
+
+figcaption h3
+{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(13, 80, 30);
+    margin: 8px;
+}
+
+figcaption h4 
+{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+    margin: 10px;
+}
+
+figcaption p 
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
