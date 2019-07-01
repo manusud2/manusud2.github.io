@@ -3,7 +3,7 @@ var high = document.querySelector('#high');
 var humidity = document.querySelector('#humidity');
 var wspeed = document.querySelector('#wspeed');
 
-var requestURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=0534323de95d302eb2a014693fae5d01';
+var requestURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=0534323de95d302eb2a014693fae5d01';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
