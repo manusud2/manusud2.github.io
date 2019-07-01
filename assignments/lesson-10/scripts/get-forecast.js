@@ -13,7 +13,6 @@ request2.onload = function()
 function populateFiveDays(jsonObj3)
 {
 var days = jsonObj3['list'];
-console.log(jsonObj3);
 
   for (var i = 0; i < days.length; i++) 
   {

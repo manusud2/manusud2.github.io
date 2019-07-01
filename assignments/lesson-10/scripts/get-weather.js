@@ -21,8 +21,6 @@ request.onload = function()
   // Input - get input and convert that string to an integer
   let t = parseInt(document.getElementById('high').innerHTML);
   let s = parseInt(document.getElementById('wspeed').innerHTML);
-  console.log(t);
-  console.log(s);
 
   // Processing - some random formula processing with the variable
   let f = 35.74 + (0.6215 * t) - (35.75 * Math.pow(s,0.16)) + (0.4275 * t * Math.pow(s,0.16));
