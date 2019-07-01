@@ -47,11 +47,11 @@
  
        <section class="preston-stats">
         <h3>Weather Summary</h3>
-        <p> Currently: <span>Sunny</span></p>
-        <p>      High: <span id="temperature">76</span><span>ºF</span></p>
-        <p>Wind Chill: <span id="wind-chill"></span><span>ºF</span></p>
-        <p>  Humidity: <span>69%</span></p>
-        <p>Wind Speed: <span id="wind-speed">5</span><span>mph</span></p>
+        <p> Currently: <span id="currently"></span></p>
+        <p>      High: <span id="high"></span><span>°F</span></p>
+        <p>Wind Chill: <span id="wchill"></span><span>°F</span></p>
+        <p>  Humidity: <span id="humidity"></span><span>%</span></p>
+        <p>Wind Speed: <span id="wspeed"></span><span> mph</span></p>
       </section>
     
       <section class="text-overlay">
@@ -60,12 +60,11 @@
 
       </div>
       
-      <div class = "preston-5-day">
-        <h3>5 Day Forecast</h3>
-        <img id="img-preston-5d" src="images/5-days-weather.png" alt="5 day forecast">
+      <h3 id = "h3-5days">5 Day Forecast</h3>
+      <div id = "5days" class = "preston-5-day">
       </div>
       
-      <div class="div-article">
+      <div class="div-article articles">
         
         <article>
           <h2>About this City</h2>
@@ -101,7 +100,11 @@
         </article>
       </div>
 
-      <div class = "final-page">
+      <div id="events" class="articles">
+      
+      </div>
+
+      <div class = "final-page articles">
         <p>My Weather Site</p>
         <p>30N 1st E</p>
         <p>Preston, ID 83263</p><br>
@@ -119,11 +122,13 @@
     <footer>
       <p>&copy;2019 My Weather Site | CIT230 | Luiz Manoel Costa<p> 
       <p>Idaho, <span id="currentDate"></span></p>
+      <a href="https://openweathermap.org/" target="_blank">Visit the Open Weather Site!</a>
     </footer>
 
+    <script src="scripts/get-forecast.js"></script>
+    <script src="scripts/get-weather.js"></script>
+    <script src="scripts/get-infoTown.js"></script>
     <script src="scripts/currentdate.js"></script>
-    <script src="scripts/windchill.js"></script>
-
   </body>
 
 </html>

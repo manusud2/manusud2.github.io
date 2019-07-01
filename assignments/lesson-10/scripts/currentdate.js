@@ -31,7 +31,3 @@ function getDate()
     
     document.getElementById("currentDate").innerHTML = day + ", " + d.getDate() + " " + month +  " " + d.getFullYear();
 }
-
-
-
-

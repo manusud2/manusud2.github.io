@@ -23,13 +23,8 @@
 {
     max-width: 70%;
     min-width: 20%;
-    float: right;
-    top: 25px;
-	right: 25px;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
+    margin: auto;
+    padding: 20px;
 }
 
 header
@@ -301,4 +296,25 @@ figcaption
 {
      width: auto; 
      height: auto;
+}
+
+#h3-5days
+{
+    display: none;
+}
+  
+.articles
+{
+    margin: 5px 144px 5px 144px;
+}
+
+#h4-events
+{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.articles ul
+{
+list-style-type: none;
 }

@@ -26,24 +26,6 @@
          flex-direction: row; 
     }
     
-    .preston-5-day
-    {
-        position: relative;display:block;
-    }
-    
-    .preston-5-day h3
-    {
-        text-align: center;
-    }
-
-    .preston-5-day img
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-
     .text-overlay:before 
     {
         content: "Large";
@@ -63,4 +45,60 @@
         box-shadow: 0 0 20px #333;
     }
 
+    /* code to 5 days forecast */
+    .preston-5-day
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px 144px 5px 144px;
+        border: solid 1px black;
+    }
+
+    .tb 
+    {
+        box-sizing: border-box;
+        padding: 0.2em;
+        border: solid 1px white;
+        background: rgba(112, 128, 144, 0.2);
+        text-align: center;
+    }
+
+    .preston-5-day > .tb 
+    {
+        width: 20%;
+    }
+
+    .preston-5-day 
+    {
+        position: relative;
+    }
+
+    .tb 
+    {
+        background-color: rgb(66, 122, 138);
+    }
+
+    .date 
+    {
+        background-color:  rgb(110, 182, 148);
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+   .temp 
+    {
+        background-color:rgb(146, 189, 201);
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #h3-5days
+    {
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 15px;
+    }
+    
 }
