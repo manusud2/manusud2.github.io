@@ -265,39 +265,6 @@ nav
     display: block; 
 }
 
-.grid-container 
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    justify-items: center;
-    align-items: center;
-}
-  
-figure 
-{
-    display: table;
-}
-
-figcaption 
-{
-    text-align: left;
-    display: table-caption; 
-    caption-side: bottom;
-    font-size: 10px;
-    padding: 1px;
-}
-
-.grid-item 
-{
-    box-shadow: 0 0 1px #333;
-}
-.grid-item img 
-{
-     width: auto; 
-     height: auto;
-}
-
 #h3-5days
 {
     display: none;
