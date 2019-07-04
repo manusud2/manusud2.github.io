@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="My Weather Page - CIT230 - Web Front-end Development at Brigham Young University-Idaho.">
+    <script src="scripts/hamburger.js"></script>
+    <title>My Weather Site | Idaho</title>
+  </head>
+
+  <body>
+      
+    <header>
+      <a href="index.html"><img id="img-logo" src="images/logo.png" alt="The Weather Logo"></a>
+      <div class="headings">
+        <p id="header-site">My Weather Site</p>
+        <div class="motto">Your weather today, tomorrow and anytime you want</div>
+     </div>
+    </header>
+  
+     <nav>
+      <ul class="navigation">
+        <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="preston.html" title="Preston">Preston</a></li>
+        <li><a href="#" title="Soda Springs">Soda Springs</a></li>
+        <li><a href="#" title="Fish Haven">Fish Haven</a></li>
+        <li><a href="stormcenter.html"  class="active" title="Storm Center">Storm Center</a></li>
+        <li><a href="gallery.html" title="Gallery">Gallery</a></li>
+      </ul>
+    </nav>
+        
+    <main>
+      <h1 id="main-h1">Storm Center</h1>
+
+      <div>
+        <form method="get" action="thanks.html">
+          <label class="top">Full Name* <input type="text" name="fname" pattern="[A-Za-z].{5,}" required></label>
+          <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+          <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+          <label class="top">Zip Code*<input type="number" name="zip-code" required></label>
+          <label class="top">Storm Date<input type="date" name="storm-date"></label>
+          <label class="top">Storm Type<input list="stormtype" name="storm-type">
+                  <datalist id="stormtype">
+                      <option value="Flash Flood">
+                      <option value="Hail">
+                      <option value="Hurricane">
+                      <option value="Thunderstorm">
+                      <option value="Tornado">
+                  </datalist>
+          </label>
+
+          <label class="top" for="rating">Storm Severity (1 to 10)</label>
+          <input class="slider" type="range" id="rating" value="1" min="1" max="10" step="1" name="stormseverity" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+          <p id="slider-value">Value:<span id="ratingvalue">1</span></p>
+          
+          <label class="top">Storm Region
+              <select name="stormregion">
+                  <option value="" disabled selected>Select Region.... &#9662;</option></label>
+                  <option value="Preston">Preston</option>
+                  <option value="SugarCity">Sugar City</option>
+                  <option value="FishHaven">Fish Haven</option>
+              </select>
+          </label>
+
+          <fieldset>
+              <legend>User in Danger?</legend>
+                <label class="radio"><input type="radio" name="userdanger" value="yes">Yes</label>
+                <label class="radio"><input type="radio" name="userdanger" value="maybe">Maybe</label>
+                <label class="radio"><input type="radio" name="userdanger" value="no">No</label>		
+          </fieldset>
+                
+          <label class="top">Comments or Additional Information
+          <textarea rows="4" cols="50" name="comments">Enter comment or additional information here...</textarea>
+          </label>
+      
+          <input type="submit" name="submit-storm" value="Send Storm Alert" class="submitBtn">
+
+        </form>
+      </div>
+
+      <div class = "final-page articles">
+        <p>My Weather Site</p>
+        <p>30N 1st E</p>
+        <p>Preston, ID 83263</p><br>
+        <p>&#9742; 999.999.9999</p>
+        <p>&#9993; myweathersite.com</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-whatsapp"></a>
+        <a href="#" class="fa fa-pinterest"></a> <br>     
+        <img class="img-map" src="images/map_idaho.png" alt="The Idaho Map">
+      </div>
+
+    </main>
+    
+    <footer>
+      <p>&copy;2019 My Weather Site | CIT230 | Luiz Manoel Costa<p> 
+      <p>Idaho, <span id="currentDate"></span></p>
+      <a href="https://openweathermap.org/" target="_blank">Visit the Open Weather Site!</a>
+    </footer>
+
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/adjust-rating.js"></script>
+    
+
+  </body>
+</html>

@@ -1,0 +1,107 @@
+/* Media Query for medium + screens */
+@media only screen and (min-width: 769px) 
+{
+    /********************************** MENU NAVIGATION CODE **************************/
+
+    .navigation li:first-child 
+    { 
+        display: none;	
+    }
+        
+    .navigation li 
+    {
+        display: inline-block;
+    }	
+    
+    .navigation li a 
+    { 
+        color: rgb(34, 18, 56);
+    }
+    
+    .navigation a:hover 
+    {
+        color: #000; background-color:rgb(25, 95, 86);
+    }
+        
+    .navigation, .container 
+    {
+         flex-direction: row; 
+    }
+    
+/********************************** STATS CODE **************************/
+    .text-overlay:before 
+    {
+        content: "Large";
+    }
+ 
+/********************************** 5 DAYS FORECAST CODE **************************/
+    .preston-5-day
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px 144px 5px 144px;
+        border: solid 1px black;
+    }
+
+    .tb 
+    {
+        box-sizing: border-box;
+        padding: 0.2em;
+        border: solid 1px white;
+        background: rgba(112, 128, 144, 0.2);
+        text-align: center;
+    }
+
+    .preston-5-day > .tb 
+    {
+        width: 20%;
+    }
+
+    .preston-5-day 
+    {
+        position: relative;
+    }
+
+    .tb 
+    {
+        background-color: rgb(66, 122, 138);
+    }
+
+    .date 
+    {
+        background-color:  rgb(110, 182, 148);
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+   .temp 
+    {
+        background-color:rgb(146, 189, 201);
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #h3-5days
+    {
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 15px;
+    }
+
+    /********************************** GALLERY CODE **************************/
+    .grid-container 
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .grid-item:hover 
+    {
+        box-shadow: 0 0 20px #333;
+    }
+}

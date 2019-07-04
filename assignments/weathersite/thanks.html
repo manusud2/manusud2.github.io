@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="My Weather Page - CIT230 - Web Front-end Development at Brigham Young University-Idaho.">
+    <script src="scripts/hamburger.js"></script>
+    <title>My Weather Site | Idaho</title>
+  </head>
+
+  <body>
+      
+    <header>
+      <a href="index.html"><img id="img-logo" src="images/logo.png" alt="The Weather Logo"></a>
+      <div class="headings">
+        <p id="header-site">My Weather Site</p>
+        <div class="motto">Your weather today, tomorrow and anytime you want</div>
+     </div>
+    </header>
+  
+     <nav>
+      <ul class="navigation">
+        <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="preston.html" title="Preston">Preston</a></li>
+        <li><a href="#" title="Soda Springs">Soda Springs</a></li>
+        <li><a href="#" title="Fish Haven">Fish Haven</a></li>
+        <li><a href="stormcenter.html"  class="active" title="Storm Center">Storm Center</a></li>
+        <li><a href="gallery.html" title="Gallery">Gallery</a></li>
+      </ul>
+    </nav>
+        
+    <main>
+      <h1 id="main-h1">Storm Center</h1>
+      <br><br><h4 style="text-align: center;color:Red;padding:1rem">Thank you very much for sending us this information about the storm. Your information could save lives!</h4>
+
+      <div class = "final-page articles">
+        <p>My Weather Site</p>
+        <p>30N 1st E</p>
+        <p>Preston, ID 83263</p><br>
+        <p>&#9742; 999.999.9999</p>
+        <p>&#9993; myweathersite.com</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-whatsapp"></a>
+        <a href="#" class="fa fa-pinterest"></a> <br>     
+        <img class="img-map" src="images/map_idaho.png" alt="The Idaho Map">
+      </div>
+
+    </main>
+    
+    <footer>
+      <p>&copy;2019 My Weather Site | CIT230 | Luiz Manoel Costa<p> 
+      <p>Idaho, <span id="currentDate"></span></p>
+      <a href="https://openweathermap.org/" target="_blank">Visit the Open Weather Site!</a>
+    </footer>
+
+    <script src="scripts/currentdate.js"></script>
+  </body>
+</html>
