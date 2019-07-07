@@ -16,7 +16,7 @@
   <body>
       
     <header>
-      <a href="index.html"><img id="img-logo" src="images/logo.png" alt="The Weather Logo"></a>
+      <div><a href="index.html"><img id="img-logo" src="images/logo.png" alt="The Weather Logo"></a></div>
       <div class="headings">
         <p id="header-site">My Weather Site</p>
         <div class="motto">Your weather today, tomorrow and anytime you want</div>
@@ -36,13 +36,13 @@
     </nav>
         
     <main>
-      <h1 id="main-h1">Preston Idaho</h1>
+      <h1 id="main-h1">Preston - Idaho</h1>
       
       <div class="w-preston-div">
         <picture>
           <source media="(max-width: 549px)" srcset="images/MainImageSmall.jpeg">
           <source media="(min-width: 550px)" srcset="images/MainImageLarge.jpeg">
-          <img src="images/MainImageLarge.jpeg" alt="The Preston City Today">
+          <img src="images/MainImageLarge.jpeg" alt="The Preston City">
        </picture>
  
        <section class="preston-stats">
@@ -54,10 +54,6 @@
         <p>Wind Speed: <span id="wspeed"></span><span> mph</span></p>
       </section>
     
-      <section class="text-overlay">
-        <h3 class="text-image">Size</h3>
-      </section>
-
       </div>
       
       <h3 id = "h3-5days">5 Day Forecast</h3>
@@ -78,25 +74,8 @@
         
                   It is one of the safest places to live in the State of Idaho and in 
                   Cache Valley.
-          </p><br>
-          <p>        
-                  For several years the city held a "Napoleon Dynamite Festival" in the summer.
-                  Many of the featured festival themes related to events occurring during the film. 
-                  For example: Tetherball Tournament, Tater Tot Eating Contest, Moon Boot Dance, 
-                  Impersonation, Look-A-Like Contest, Football Throwing Contest and more. 
-                  In 2004 there was a single day event that drew approximately 300 people. 
-                  Although this was not a large crowd, it did help raise $1,500 for the Preston 
-                  School District Education Foundation. In 2005 an estimated 6,000 people attended 
-                  the event, but that number dropped to an estimated 400 people in 2006. The 2007 and
-                   2008 event was held along with the 'That Famous Preston Night Rodeo' in Preston. 
-                   There are no plans for reviving the event. 'That Famous Preston Night Rodeo' is 
-                   usually held in late July, along with the Franklin County parade. The rodeo's name 
-                   ('That Famous Preston Night Rodeo') comes from it being the first rodeo held during 
-                   night time. It includes many events such as bull riding, barrel racing, and other 
-                   popular events. The Franklin county parade includes floats and advertisements of 
-                   local businesses. The rodeo and parade remain one of the town's most popular local 
-                   events and traditions.
           </p>
+          <p><a title="Wikipedia: Preston Festival" target="_blank" href="https://en.wikipedia.org/wiki/Preston,_Idaho">Read full article</a></p>
         </article>
       </div>
 
@@ -104,25 +83,38 @@
       </div>
 
       <div class = "final-page articles">
-        <p>My Weather Site</p>
-        <p>30N 1st E</p>
-        <p>Preston, ID 83263</p><br>
-        <p>&#9742; 999.999.9999</p>
-        <p>&#9993; myweathersite.com</p>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-whatsapp"></a>
-        <a href="#" class="fa fa-pinterest"></a> <br>     
-        <img class="img-map" src="images/map_preston.png" alt="The Preston Map">
-      </div>
-
-    </main>
+          <div class ="final-page-txt">
+              <p>My Weather Site</p>
+              <p>30N 1st E</p>
+              <p>Preston, ID 83263</p><br>
+              <p>&#9742; 999.999.9999</p>
+              <p>&#9993; myweathersite.com</p>
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-whatsapp"></a>
+              <a href="#" class="fa fa-pinterest"></a> <br>     
+            </div>
+        
+          <div class="img-map">
+            <iframe 
+              width="250" 
+              height="250" 
+              src="https://maps.google.com/maps?q=preston%2C%20idaho&t=k&z=5&ie=UTF8&iwloc=&output=embed" 
+              frameborder="0" 
+              scrolling="no" 
+              marginheight="0" 
+              marginwidth="0">
+            </iframe>
+          </div>
+        </div>
     
-    <footer>
-      <p>&copy;2019 My Weather Site | CIT230 | Luiz Manoel Costa<p> 
-      <p>Idaho, <span id="currentDate"></span></p>
-      <p>Current weather data provided by OpenWeatherMap, under the CC BY-SA 4.0 license.</p><a href="https://openweathermap.org/" target="_blank">Visit!</a>
-    </footer>
+        </main>
+        
+        <footer>
+          <p>&copy;2019 My Weather Site | CIT230 | Luiz Manoel Costa<p> 
+          <p>Idaho, <span id="currentDate"></span></p>
+          <p>Current weather data provided by OpenWeatherMap, under the CC BY-SA 4.0 license.</p><a href="https://openweathermap.org/" target="_blank">Visit!</a>
+        </footer>
 
     <script src="scripts/get-forecast.js"></script>
     <script src="scripts/get-weather.js"></script>

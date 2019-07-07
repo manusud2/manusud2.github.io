@@ -37,25 +37,7 @@ h4
 /********************************** HEADER CODE **************************/
 #img-logo
 {
-    max-width: 15%;
-    min-width: 15%;
-}
-
-.w-preston-div picture img
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  padding: 10px;
-}
-
-.div-article article img
-{
-    max-width: 70%;
-    min-width: 20%;
-    margin: auto;
-    padding: 20px;
+    max-width: 25%;
 }
 
 header
@@ -91,6 +73,16 @@ header img, .headings
     font-size: 15px;
     margin: 5px;
     color: black;
+}
+
+/********************************** MAIN IMAGE CODE **************************/
+.w-preston-div picture img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 10px;
 }
 
 /********************************** STATS OVERLAY CODE **************************/
@@ -141,25 +133,28 @@ header img, .headings
 	box-shadow: 0 0 5px rgb(75, 72, 72);
 }
 
-.text-overlay:before {
-    content: "Small";
-  }
-
 /********************************** ARTICLE CODE **************************/
 article  
 {
     font-size: 18px;
     text-align: center;
-    border-bottom: 1px solid #bbb;
-    margin: 40px;
-    padding: 10px;
-    background: #e7e7e5;
-    color: black;
+    padding: 5px;
+}
+
+.div-article article img
+{
+    max-width: 70%;
+    min-width: 20%;
+    margin: auto;
+    padding: 20px;
 }
 
 .articles
 {
-    margin: 5px 144px 5px 144px;
+    margin: 10px 66px 10px 66px;
+    background: #e7e7e5;
+    color: black;
+    border-bottom: 1px solid #bbb;
 }
 
 .articles ul
@@ -174,25 +169,32 @@ list-style-type: none;
 }
 
 /********************************** RODAPE PAGE CODE **************************/
-.final-page img
-{
-  max-width: 30%;
-  min-width: 25%;
-  position: relative;
-  margin: 10px;
-  border: 0px;
-  box-shadow: 0 0 15px rgb(75, 72, 72);
-}
-
 .final-page  
 {
-    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
     text-align: center;
-    border-bottom: 1px solid #bbb;
-    margin: 40px;
+    padding: 10px;
+}
+
+.final-page-txt
+{    
+    font-size: 14px;
+    text-align: center;
     padding: 10px;
     background: #e7e7e5;
     color: black;
+}
+
+.img-map
+{
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  border: 1px;
+  box-shadow: 0 0 15px rgb(75, 72, 72);
 }
 
 footer 
@@ -201,49 +203,13 @@ footer
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0px;
-    padding: 10px;
-    font-size: 15px;
+    margin: 3px;
+    padding: 3px;
+    font-size: 12px;
     background: #fb6c03;
     color: black;
     text-align: center;
 }
-
-/********************************** SOCIAL NETWORK ICONS CODE **************************/
-.fa 
-{
-    padding: 2px;
-    font-size: 20px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-  .fa-pinterest {
-    background: #cb2027;
-    color: white;
-  }
-  
-  .fa-whatsapp {
-    background: #0f8022;
-    color: white;
-  }  
 
 /********************************** CONFG SCREEN CODE **************************/
 .preston-5-day {display: none;}
@@ -327,12 +293,17 @@ figure
     display: table;
 }
 
+.links-home
+{
+    text-decoration: none;
+}
+
 /********************************** HOME PAGE GALLERY CODE **************************/
 .fc1 
 {
     text-align: center;
     display: table-caption; 
-    caption-side: top;
+    caption-side: bottom;
     padding: 15px;
 }
 
@@ -367,7 +338,7 @@ figcaption p
     display: table-caption; 
     caption-side: bottom;
     font-size: 10px;
-    padding: 1px;
+    padding: 2px;
 }
 
 /********************************** FORM STORM CODE **************************/
@@ -488,3 +459,39 @@ form fieldset
     text-align:center;
     font-size: 13px;  
 }
+
+/********************************** SOCIAL NETWORK ICONS CODE **************************/
+.fa 
+{
+    padding: 2px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-whatsapp {
+    background: #0f8022;
+    color: white;
+  }  
