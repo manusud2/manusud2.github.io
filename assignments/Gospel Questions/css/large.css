@@ -1,0 +1,121 @@
+header, footer
+{
+    display: grid;
+    background-color: #fb6c03;
+    text-align: center;
+    color: black;
+}
+
+.question
+{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+header
+{
+    font-size: 35px;
+    font-family: 'Monoton', cursive;
+    padding: 10px;
+}
+
+footer
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: 8fr 1fr 8fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding: 15px;
+}
+    
+.grid-item 
+{
+    box-shadow: 0 0 15px #333;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+    width: 450px;
+    height: 300px;
+    margin:auto;
+}
+
+#count-question
+{
+    box-shadow: 0 0 8px rgb(116, 53, 53);
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    width: 80px;
+    height:20px;
+    margin:auto;
+}
+
+#myCanvas1, #myLegend1
+{
+    align-items: center;
+    margin:auto;
+}
+
+.button {
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 8px;
+    font-size: 11px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+    width: 350px;
+}
+    
+.button:hover 
+{
+    background-color: #3e8e41
+}
+    
+.button:active 
+{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+    
+li
+{
+    padding: 10px;
+    width: 350px;
+}
+
+ol
+{
+    list-style: none;
+    text-align: center;
+}
+
+#count
+{
+    align-items: center;
+    margin:auto;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 20px;
+}
