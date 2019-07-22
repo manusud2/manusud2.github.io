@@ -38,8 +38,8 @@
     }
 
     .button {
-        font-size: 8px;
-        box-shadow: 0 6px #999;
+        font-size: 13px;
+        box-shadow: 0 4px #999;
         width: 300px;
     }
 
@@ -57,7 +57,7 @@
     
     #legend1
     {
-        margin-right: 240px;
-        margin-top: -40px;
+        margin-right: 280px;
+        margin-top: -60px;
     }
 }

@@ -54,18 +54,10 @@ function displayQuestions(questions)
 {
   let i = 0;
   let question = document.querySelector('#get-question');
-  let pie = document.querySelector('#pie1');
   question.innerHTML = ""; // clear screen
-  
   let myPara1 = document.createElement('p');
   let myAnswers = document.createElement('ol');
-  let canvasM = document.createElement("canvas");
-  canvasM.setAttribute('id','myCanvas1');
-  let legendM = document.createElement("div");
-  legendM.setAttribute('id','myLegend1');
-  pie.appendChild(canvasM);
-  pie.appendChild(legendM); 
-  
+ 
   // get counter question
   let count = document.querySelector('#count');
   count.innerHTML = (cont1+cont2+1) + '/' + (questions.length+cont1+cont2);
@@ -105,9 +97,10 @@ function displayQuestions(questions)
         cont2++;
         new Audio('sounds/lose.wav').play();
       }
+    
       create_pieChart("myCanvas1","myLegend1",cont1,cont2);
       
-      if ((cont1+cont2+1) == 11)
+      if ((cont1+cont2+1) == (questions.length+cont1+cont2))
       {
         displayFinalScreen();
       }
@@ -137,7 +130,7 @@ function displayFinalScreen()
   if (grade >= .8 && grade < 1){var key = 'd31w24psGYeekCZy'}
   if (grade == 1){var key = '3o6fIUZTTDl0IDjbZS'}
 
-  question.innerHTML = '<iframe src="https://giphy.com/embed/' + key + '" width="100%" height="100%" style="position:relative" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>';
+  question.innerHTML = '<iframe src="https://giphy.com/embed/' + key + '" width="100%" height="100%" style="position:relative" frameBorder="0"></iframe>';
 }
 
  let cont1 = 0;
@@ -147,5 +140,14 @@ window.addEventListener("load", () =>
 {
   let targetURL = 'https://spreadsheets.google.com/feeds/list/16oLtg3CdTeU0ULE4tEriz8wHNL4afQlu4hp1TcAkSTI/od6/public/values?alt=json';
   getLinkLocation();
+
+  let pie = document.querySelector('#pie1');
+  let canvasM = document.createElement("canvas");
+  let legendM = document.createElement("div");
+  canvasM.setAttribute('id','myCanvas1');
+  legendM.setAttribute('id','myLegend1');
+  pie.appendChild(canvasM);
+  pie.appendChild(legendM); 
+
   getQuestions(targetURL);
 });
