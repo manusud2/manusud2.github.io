@@ -11,6 +11,7 @@ function drawPieSlice(ctx,centerX, centerY, radius, startAngle, endAngle, color 
 function create_pieChart(id,my_legend,hits,errors)
 {
 let myCanvas = document.getElementById(id);
+
 myCanvas.width = 200;
 myCanvas.height = 200;
 
