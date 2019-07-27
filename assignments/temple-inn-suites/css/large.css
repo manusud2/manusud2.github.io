@@ -1,0 +1,25 @@
+/* Media Query for medium + screens */
+@media only screen and (min-width: 769px) 
+{
+    /********************************** MENU NAVIGATION CODE **************************/
+    .navigation li:first-child 
+    { 
+        display: none;	
+    }
+        
+    .navigation li 
+    {
+        display: inline-block;
+    }	
+    
+    .navigation a:hover 
+    {
+        color: white; 
+        background-color:#12249d;
+    }
+        
+    .navigation, .container 
+    {
+         flex-direction: row; 
+    }
+}

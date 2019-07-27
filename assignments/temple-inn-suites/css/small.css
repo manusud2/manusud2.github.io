@@ -1,0 +1,190 @@
+/********************************** INITIAL CODE **************************/
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html 
+{
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+*
+{
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    margin: 0; 
+    box-sizing: border-box; 
+}
+
+/***************************************************************************** general code */
+body
+{
+    color: black;
+}
+
+/****************************************************************************** Header and Foot code */
+
+header, footer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    background-color: #12249D ;
+    text-align: center;
+    color: white;
+}
+
+footer {margin-top: 10px;}
+
+#header-text
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    text-shadow: 0 0 13px #FF0000, 0 0 5px white;
+
+} 
+
+#header-logo
+{
+    max-width: 100%;
+}
+
+/***************************************************************************** Slide Show - Home Page Code */
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.mySlides 
+{
+  display: none;
+  max-width: 500px;
+  border: solid 1px black;   
+}
+
+.prev,
+.next 
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #222428;
+    font-weight: bold;
+    font-size: 30px;
+    transition: .6s ease;
+    border-radius: 0 3px 3px 0
+}
+
+.next {
+    right: -50px;
+    border-radius: 6px 6px 6px 6px
+}
+
+.prev 
+{
+    left: -50px;
+    border-radius: 6px 6px 6px 6px
+}
+
+.prev:hover,
+.next:hover 
+{
+    color: #f2f2f2;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.text 
+{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #222428
+}
+
+.numbertext 
+{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0
+}
+
+.dot 
+{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color .6s ease
+}
+
+.active,
+.dot:hover 
+{
+    background-color: #717171
+}
+
+/************************************************************************************** Responsive Menu Code */
+nav 
+{
+    display: flex;
+    background-color: #6873c0;
+    justify-content: center;
+    color: white;
+
+}
+
+.navigation 
+{ 
+    list-style: none;
+    text-align: center;
+    display: flex;
+	flex-direction: column;
+}
+
+.navigation li:first-child 
+{
+     display: block;
+}
+
+.navigation li 
+{
+    display: none;
+}
+
+.navigation a 
+{
+    display: block;	
+    color: #fff; 
+    padding:.75rem; 
+    text-align: center;	
+    font-family: 'Anton', sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.navigation a:hover 
+{
+    color:white; 
+    background-color:#12249d;
+}
+
+.responsive li 
+{
+    display: block; 
+}

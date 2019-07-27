@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Oswald|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&effect=shadow-multiple|3d-float" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Temple Inn Suites - CIT230 - Final Project - Web Front-end Development at Brigham Young University-Idaho.">
+    <script src="scripts/hamburger.js"></script>
+    <title>Temple Inn Suites | Bethesda | MD</title>
+  </head>
+
+  <body>
+      
+    <header>
+        
+        <div class="header">
+          <a href="index.html"><img id="header-logo" src="images/logo.png" alt="Temple Inn Suites"></a>
+        </div>
+        
+        <div class="header">
+          <p id="header-text">TEMPLE INN SUITES</p>
+        </div>
+          
+        <div class="header">
+          <p id="header-weather">Weater</p>
+        </div>
+    
+    </header>
+  
+    <nav>
+      <ul class="navigation">
+        <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="index.html" class="active" title="Home">Home</a></li>
+        <li><a href="01-temples/temples.html" title="Temples">Temples</a></li>
+        <li><a href="02-reservation/reservation.html" title="Reservation">Reservation</a></li>
+        <li><a href="03-services/services.html" title="Services">Services</a></li>
+        <li><a href="04-contact/contact.html" title="Contact">Contact Us</a></li>
+      </ul>
+    </nav>
+        
+    <main>
+      <h1 id="main-h1">HOME</h1>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+      
+          <img  src='images/cp-lg.jpg' style='width: 100%;' alt="Brazil Campinas Temple"/>
+          <div class="text">Campinas</div>
+        </div>
+      
+        <div class="mySlides fade">
+      
+            <img  src='images/ct-lg.jpg' style='width: 100%;' alt="Brazil Curitiba Temple"/>
+            <div class="text">Curitiba</div>
+        </div>
+      
+        <div class="mySlides fade">
+      
+            <img  src='images/sp-lg.jpg' style='width: 100%;' alt="Brazil Sao Paulo Temple"/>
+            <div class="text">Sao Paulo</div>
+        </div>
+      
+        <div class="mySlides fade">
+      
+            <img  src='images/rc-lg.jpg' style='width: 100%;' alt="Brazil Recife Temple"/>
+            <div class="text">Recife</div>
+        </div>
+
+        <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+        <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+      </div>
+      <br/>
+            
+      <div style='text-align: center;'>
+        <span class="dot" onclick='currentSlide(1)'></span>
+        <span class="dot" onclick='currentSlide(2)'></span>
+        <span class="dot" onclick='currentSlide(3)'></span>
+        <span class="dot" onclick='currentSlide(4)'></span>
+      </div>
+  
+      <div class="home-div"> 
+          <div class= "home-reservation"></div>
+          <div class= "home-reservation"></div>
+          <div class= "home-reservation"></div>
+      </div>
+
+      <div class="home-div"> 
+            <div class= "home-services"></div>
+            <div class= "home-services"></div>
+            <div class= "home-services"></div>
+        </div>
+    
+    </main>
+      
+    <footer>
+        <div class="footer-information">
+            <p>&copy;Temple Inn Suites<p> 
+            <p>Idaho, <span id="currentDate"></span></p>
+            <p>Current weather data provided by OpenWeatherMap, under the CC BY-SA 4.0 license.</p><a href="https://openweathermap.org/" target="_blank">Visit!</a>
+        </div>
+
+        <div class ="footer-social-network">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+            <a href="#" class="fa fa-pinterest"></a>     
+        </div>
+
+        <div class="footer-map">
+            <iframe width="250" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?q=idaho&t=k&z=5&ie=UTF8&iwloc=&output=embed">
+            </iframe>
+        </div>
+    </footer>
+  
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
