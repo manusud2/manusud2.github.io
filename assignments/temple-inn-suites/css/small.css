@@ -25,6 +25,7 @@ body
 
 header, footer
 {
+    font-family: 'Anton', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
@@ -39,7 +40,6 @@ footer {margin-top: 10px;}
 
 #header-text
 {
-    font-family: 'Anton', sans-serif;
     font-size: 40px;
     text-shadow: 0 0 13px #FF0000, 0 0 5px white;
 
@@ -49,6 +49,37 @@ footer {margin-top: 10px;}
 {
     max-width: 100%;
 }
+
+/* Weather geader information */
+.header-weather
+{
+    position: float;
+    padding-top: 8px;       
+}
+
+#temp-weather
+{
+    font-size: 25px;
+}
+
+#icon-weather
+{
+    margin-top:-75px;
+    margin-left: 30px;
+}
+
+#desc-weather
+{
+    margin-top:-40px;
+    margin-left: 30px;
+}
+
+#city-weather
+{
+    margin-top:-35px;
+    margin-left: 40px;
+}
+
 
 /***************************************************************************** Slide Show - Home Page Code */
 .slideshow-container {

@@ -7,8 +7,6 @@ window.addEventListener("load",function() {
     myTimer = setInterval(function(){plusSlides(1)}, 4000);
 })
 
-
-
 // NEXT AND PREVIOUS CONTROL
 function plusSlides(n){
   clearInterval(myTimer);
