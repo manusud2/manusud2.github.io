@@ -1,5 +1,5 @@
-/* Media Query for medium + screens */
-@media only screen and (min-width: 769px) 
+/* Media Query for large screens */
+@media only screen and (min-width: 992px) 
 {
     /********************************** MENU NAVIGATION CODE **************************/
     .navigation li:first-child 
@@ -18,8 +18,72 @@
         background-color:#12249d;
     }
         
+    .navigation a
+    {
+        font-size: 20px;
+    }
+
     .navigation, .container 
     {
          flex-direction: row; 
     }
+
+    /* Weather geader information */
+    .header-grid-container
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #temp-weather
+    {
+        font-size: 25px;
+    }
+
+    #desc-weather, #city-weather
+    {
+        margin-top: -28px;
+    }
+
+    #icon-weather, #temp-weather
+    {
+        margin-top: -15px;
+    }
+
+    #icon-weather, #desc-weather
+    {
+    display: grid;
+    }
+
+
+    /****************************************************************************** Header and Foot code */
+
+    header, footer
+    {
+        gap: 15px;
+    }
+
+    footer {margin-top: 10px;}
+
+    #header-text
+    {
+        font-size: 40px;
+        text-shadow: 0 0 13px #FF0000, 0 0 5px white;
+    } 
+
+    #header-logo
+    {
+        max-width: 100%;
+    }
+
+    /********************************** GRID CODE (TO GALLERY AND HOME GRID IMAGES) **************************/
+    .temple-grid-container 
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .fc2
+    {
+        font-size: 15px;
+    }
+
 }

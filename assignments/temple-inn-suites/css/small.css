@@ -22,13 +22,11 @@ body
 }
 
 /****************************************************************************** Header and Foot code */
-
 header, footer
 {
     font-family: 'Anton', sans-serif;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 5px;
     justify-items: center;
     align-items: center;
     background-color: #12249D ;
@@ -36,50 +34,87 @@ header, footer
     color: white;
 }
 
-footer {margin-top: 10px;}
+header
+{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer 
+{
+    margin-top: 5px;
+    padding: 12px;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Roboto', sans-serif;
+}
 
 #header-text
 {
-    font-size: 40px;
-    text-shadow: 0 0 13px #FF0000, 0 0 5px white;
-
+    font-size: 20px;
+    text-shadow: 0 0 5px #FF0000, 0 0 3px white;
 } 
 
 #header-logo
 {
-    max-width: 100%;
+    max-width: 70%;
 }
 
-/* Weather geader information */
-.header-weather
+#footer-weather-link
 {
-    position: float;
-    padding-top: 8px;       
+    color: white;
+}
+
+.fa {
+    padding: 2px;
+    font-size: 35px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 45%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-whatsapp {
+    background: #0f8022;
+    color: white;
+  }  
+
+/*************************************************************************** Weather Header information */
+.header-grid-container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
 }
 
 #temp-weather
 {
-    font-size: 25px;
+    font-size: 15px;
 }
 
-#icon-weather
+#icon-weather, #desc-weather
 {
-    margin-top:-75px;
-    margin-left: 30px;
+    display: none;
 }
-
-#desc-weather
-{
-    margin-top:-40px;
-    margin-left: 30px;
-}
-
-#city-weather
-{
-    margin-top:-35px;
-    margin-left: 40px;
-}
-
 
 /***************************************************************************** Slide Show - Home Page Code */
 .slideshow-container {
@@ -161,13 +196,22 @@ footer {margin-top: 10px;}
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color .6s ease
+    transition: background-color .6s ease;
 }
 
 .active,
 .dot:hover 
 {
-    background-color: #717171
+    background-color: #717171;
+}
+
+/***************************************************************************** Main Grid Home **************/
+.home-div
+{
+    grid-template-columns: 1fr;
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 /************************************************************************************** Responsive Menu Code */
@@ -205,7 +249,7 @@ nav
     padding:.75rem; 
     text-align: center;	
     font-family: 'Anton', sans-serif;
-    font-size: 26px;
+    font-size: 15px;
     text-decoration: none;
 }
 
@@ -219,3 +263,53 @@ nav
 {
     display: block; 
 }
+
+/********************************** GRID CODE (TO GALLERY AND HOME GRID IMAGES) **************************/
+.temple-grid-container 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+  
+.temple-grid-item 
+{
+    box-shadow: 0 0 1px #333;
+}
+
+.temple-grid-item img 
+{
+     width: auto; 
+     height: auto;
+}
+
+picture 
+{
+    display: table;
+}
+
+.links-home
+{
+    text-decoration: none;
+}
+
+.fc1
+{
+    text-align: left;
+    display: table-caption; 
+    caption-side: top;
+    font-size: 10px;
+    padding: 2px;
+}
+
+.fc2
+{
+    text-align: left;
+    display: table-caption; 
+    caption-side: bottom;
+    font-size: 10px;
+    padding: 2px;
+}
+

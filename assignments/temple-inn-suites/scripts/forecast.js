@@ -10,7 +10,6 @@ else
 // get Json Questions from URL
 function getWeather(position)
 {
-
     let requestURL2 = "https://api.openweathermap.org/data/2.5/weather?&units=metric&lat=" 
     + position.coords.latitude + "&lon=" + position.coords.longitude 
     + "&APPID=0534323de95d302eb2a014693fae5d01";

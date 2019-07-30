@@ -1,0 +1,10 @@
+/* Media Query for medium + screens */
+@media only screen and (min-width: 768px) 
+{
+    /********************************** GRID CODE (TO GALLERY AND HOME GRID IMAGES) **************************/
+    .temple-grid-container 
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
