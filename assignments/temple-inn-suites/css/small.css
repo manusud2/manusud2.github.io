@@ -264,7 +264,7 @@ nav
     display: block; 
 }
 
-/********************************** GRID CODE (TO GALLERY AND HOME GRID IMAGES) **************************/
+/********************************** GRID CODE (TO TEMPLE GALLERY AND HOME GRID IMAGES) **************************/
 .temple-grid-container 
 {
     display: grid;
@@ -300,11 +300,11 @@ picture
     text-align: center;
     display: table-caption; 
     caption-side: top;
-    font-size: 20px;
+    font-size: 25px;
     padding: 2px;
     font-weight: bold;
-    background-color: #F7F5E9 
-
+    background-color: rgb(114, 156, 184); 
+    text-transform: capitalize;
 }
 
 .fc2
@@ -324,3 +324,4 @@ figcaption p
     color: black;
     padding: 3px;
 }
+
