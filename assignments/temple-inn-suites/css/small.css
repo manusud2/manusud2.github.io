@@ -118,16 +118,16 @@ footer
 
 /***************************************************************************** Slide Show - Home Page Code */
 .slideshow-container {
-    max-width: 500px;
+    max-width: 350px;
     position: relative;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .mySlides 
 {
   display: none;
-  max-width: 500px;
+  max-width: 350px;
   border: solid 1px black;   
 }
 
@@ -297,11 +297,14 @@ picture
 
 .fc1
 {
-    text-align: left;
+    text-align: center;
     display: table-caption; 
     caption-side: top;
-    font-size: 10px;
+    font-size: 20px;
     padding: 2px;
+    font-weight: bold;
+    background-color: #F7F5E9 
+
 }
 
 .fc2
@@ -311,5 +314,13 @@ picture
     caption-side: bottom;
     font-size: 10px;
     padding: 2px;
+    background-color: rgb(238, 218, 226)
 }
 
+figcaption p 
+{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    padding: 3px;
+}

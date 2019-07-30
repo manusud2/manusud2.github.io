@@ -86,4 +86,15 @@
         font-size: 15px;
     }
 
+    /***************************************************************************** Slide Show - Home Page Code */
+    .slideshow-container {
+        max-width: 500px;
+        padding-top: 20px;
+    }
+
+    .mySlides 
+    {
+    max-width: 500px;
+    }
+
 }
