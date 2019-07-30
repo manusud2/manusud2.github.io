@@ -4,27 +4,27 @@
     "releaseDate": "2019-07-25T00:00:00.000Z",
     "temples": [
       {
-        "Name": "Curitiba",
-        "Address": "Rua Deputado Heitor Alencar Furtado - 3641 Mossunguê - Curitiba - PR, Brazil",
-        "Telephone": "(55) 41-3204-6650",
-        "Services": [
+        "name": "Curitiba",
+        "address": "Rua Deputado Heitor Alencar Furtado - 3641 Mossunguê - Curitiba - PR, Brazil",
+        "telephone": "(55) 41-3204-6650",
+        "services": [
           "No clothing rental available",
           "No cafeteria available",
           "No patron housing available",
           "Distribution center nearby"
         ],
-        "History": [
+        "history": [
           "Announced: 23 August 2002",
           "Groundbreaking: 10 March 2005",
           "Dedicated: 1 June 2008"
         ],
-        "Schedule": [
+        "schedule": [
           "Baptism: 9:00 AM - 9:00 PM",
           "Initiatory: 9:00 AM - 9:30 PM",
           "Endowment: 9:00 AM - 8:00 PM",
           "Sealing: 9:00 AM - 9:30 PM"
         ],
-        "Closures": [
+        "closures": [
           "5 October 2019",
           "11 November 2019",
           "25 November 2019",
@@ -34,27 +34,27 @@
         ]
       },
       {
-        "Name": "Recife",
-        "Address": "Rua Dr. José de Góes - 280 - Parnamirim - Recife - PE Brazil",
-        "Telephone": "(55) 81-2129-4300",
-        "Services": [
+        "name": "Recife",
+        "address": "Rua Dr. José de Góes - 280 - Parnamirim - Recife - PE Brazil",
+        "telephone": "(55) 81-2129-4300",
+        "services": [
           "Clothing rental available",
           "Cafeteria available",
           "Patron housing available",
           "Distribution center nearby"
         ],
-        "History": [
+        "history": [
           "Announced: 13 January 1995",
           "Groundbreaking: 15 November 1996",
           "Dedicated: 15 December 2000"
         ],
-        "Schedule": [
+        "schedule": [
           "Baptism: 8:00 AM - 9:30 PM",
           "Initiatory: 8:00 AM - 8:30 PM",
           "Endowment: 7:15 AM - 7:45 PM",
           "Sealing: Please call the temple"
         ],
-        "Closures": [
+        "closures": [
           "5 October 2019",
           "14 October 2019",
           "28 October 2019",
@@ -63,28 +63,28 @@
         ]
       },
       {
-        "Name": "Sao Paulo",
-        "Address": "Av. Prof. Francisco Morato 2390 - Caxingui - São Paulo - SP - Brazil",
-        "Telephone": "(55) 11-3723-7600",
-        "Services": [
+        "name": "Sao Paulo",
+        "address": "Av. Prof. Francisco Morato 2390 - Caxingui - São Paulo - SP - Brazil",
+        "telephone": "(55) 11-3723-7600",
+        "services": [
           "Clothing rental available",
           "Cafeteria available",
           "No patron housing available",
           "Distribution center nearby"
         ],
-        "History": [
+        "history": [
           "Announced: 1 March 1975",
           "Groundbreaking: 20 March 1976",
           "Dedicated: 30 October 1978",
           "Rededicated: 22 February 2004"
         ],
-        "Schedule": [
+        "schedule": [
           "Baptism: 9:00 AM - 10:00 PM",
           "Initiatory: 9:00 AM - 9:00 PM",
           "Endowment: 8:30 AM - 8:30 PM",
           "Sealing: 8:30 AM - 7:30 PM"
         ],
-        "Closures": [
+        "closures": [
           "12 August 2019",
           "7 September 2019",
           "5 October 2019",
@@ -93,27 +93,27 @@
         ]
       },
       {
-        "Name": "Campinas",
-        "Address": "Rua James Esdras Faust 400 - Sousas - Campinas - SP - Brazil",
-        "Telephone": "(55) 19-2102-5800",
-        "Services": [
+        "name": "Campinas",
+        "address": "Rua James Esdras Faust 400 - Sousas - Campinas - SP - Brazil",
+        "telephone": "(55) 19-2102-5800",
+        "services": [
           "Clothing rental available",
           "Cafeteria available",
           "Patron housing available",
           "Distribution center nearby"
         ],
-        "History": [
+        "history": [
           "Announced: 3 April 1997",
           "Groundbreaking: 1 May 1998",
           "Dedicated: 17 May 2002"
         ],
-        "Schedule": [
+        "schedule": [
           "Baptism: 9:00 AM - 9:30 PM",
           "Initiatory: Please call the temple",
           "Endowment: 9:00 AM - 8:20 PM",
           "Sealing: 10:00 AM - 11:00 PM"
         ],
-        "Closures": [
+        "closures": [
           "5 October 2019",
           "15 November 2019",
           "25 November 2019",
