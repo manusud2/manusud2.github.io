@@ -62,7 +62,11 @@
         gap: 15px;
     }
 
-    footer {margin-top: 10px;}
+    footer 
+    {
+        margin-top: 10px;
+        font-size: 14px;
+    }
 
     #header-text
     {
@@ -81,6 +85,11 @@
         grid-template-columns: 1fr 1fr;
     }
     
+    .fc1
+    {
+        font-size: 25px;
+    }
+
     .fc2
     {
         font-size: 15px;
@@ -97,4 +106,50 @@
     max-width: 500px;
     }
 
+
+    /********************************** FORM STORM CODE **************************/
+    form label.top, form div
+    {
+        padding-top: 0.3rem;
+        font-size: 12px;
+    }
+
+    form label.top input , form label.top select, form label.top textarea 
+    {
+        padding: .75rem;
+        width: 100%;
+        max-width: 24rem;
+    }
+
+    form input.submitBtn
+    {
+        width: 100%;
+        max-width: 28rem;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    form label.top input:required
+    {
+        border-right: red solid 20px;
+    }
+
+    form label.top input:required:valid
+    {
+        border-right: rgb(16, 75, 16) solid 20px;
+    }
+
+    /********************************************* CONTACT PAGE CODE ***********************************/
+    .contact-grid-container 
+    {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    #contact-map 
+    {
+     width: 450px; 
+     height: 330px;
+     box-shadow: 0 0 7px #333;
+    }
 }

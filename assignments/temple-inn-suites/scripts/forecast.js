@@ -22,7 +22,7 @@ function getWeather(position)
     request2.onload = function() 
     {
         var jsonObj2 = request2.response;
-        document.getElementById("temp-weather").innerHTML = jsonObj2.main.temp + '°C';
+        document.getElementById("temp-weather").innerHTML = jsonObj2.main.temp.toFixed(0) + '°C';
         document.getElementById("desc-weather").innerHTML = jsonObj2.weather[0].description.toUpperCase();
         document.getElementById("city-weather").innerHTML = jsonObj2.name + ', ' + jsonObj2.sys.country;
         document.getElementById("icon-weather").innerHTML = 

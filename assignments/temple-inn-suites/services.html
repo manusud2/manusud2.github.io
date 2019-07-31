@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Oswald|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&effect=shadow-multiple|3d-float" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Temple Inn Suites - CIT230 - Final Project - Web Front-end Development at Brigham Young University-Idaho.">
+    <title>Temple Inn Suites | Bethesda | MD</title>
+  </head>
+
+  <body>
+      
+    <header>
+        
+        <div class="header">
+          <a href="index.html"><img id="header-logo" src="images/logo.png" alt="Temple Inn Suites"></a>
+        </div>
+        
+        <div class="header">
+          <p id="header-text">TEMPLE INN SUITES</p>
+        </div>
+          
+        <div class="header">
+          <div class="header-grid-container">
+            <div id="temp-weather" class="header-weather"></div>
+            <div id="icon-weather" class="header-weather"></div>
+            <div id="city-weather" class="header-weather"></div>
+            <div id="desc-weather" class="header-weather"></div>
+          </div>
+        </div>
+    
+    </header>
+  
+    <nav>
+      <ul class="navigation">
+        <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="temples.html" class="active" title="Temples">Temples</a></li>
+        <li><a href="reservation.html" title="Reservation">Reservation</a></li>
+        <li><a href="services.html" title="Services">Services</a></li>
+        <li><a href="contact.html" title="Contact">Contact Us</a></li>
+      </ul>
+    </nav>
+        
+    <main>
+      <h1>TEMPLES</h1>
+
+      <div class="temple-grid-container">
+          <div class="temple-grid-item">
+            <picture>
+              <figcaption id="t1-w-desc" class = "fc1"></figcaption>
+                <source media="(min-width: 992px)" srcset="images/rc-lg.jpg">
+                <source media="(min-width: 768px)" srcset="images/rc-md.jpg">
+                <source media="(min-width: 480px)" srcset="images/rc-sm.jpg">
+                <img src="images/rc-lg.jpg" alt="Recife">
+                <figcaption class = "fc2" id="div-temple1"></figcaption>
+                </picture>
+          </div>
+            
+          <div class="temple-grid-item">
+            <picture>
+              <figcaption id="t2-w-desc" class = "fc1"></figcaption>
+              <source media="(min-width: 992px)" srcset="images/ct-lg.jpg">
+                <source media="(min-width: 768px)" srcset="images/ct-md.jpg">
+                <source media="(min-width: 480px)" srcset="images/ct-sm.jpg">
+                <img src="images/ct-lg.jpg" alt="Curitiba">
+                <figcaption class = "fc2" id="div-temple2"></figcaption>
+                </picture>
+          </div>
+
+          <div class="temple-grid-item">
+            <picture>
+              <figcaption id="t3-w-desc" class = "fc1"></figcaption>
+              <source media="(min-width: 992px)" srcset="images/cp-lg.jpg">
+                <source media="(min-width: 768px)" srcset="images/cp-md.jpg">
+                <source media="(min-width: 480px)" srcset="images/cp-sm.jpg">
+                <img src="images/cp-lg.jpg" alt="Campinas">
+                <figcaption class = "fc2" id="div-temple3"></figcaption>
+                </picture>
+          </div>
+
+          <div class="temple-grid-item">
+            <picture>
+              <figcaption id="t4-w-desc" class = "fc1"></figcaption>
+              <source media="(min-width: 992px)" srcset="images/sp-lg.jpg">
+                <source media="(min-width: 768px)" srcset="images/sp-md.jpg">
+                <source media="(min-width: 480px)" srcset="images/sp-sm.jpg">
+                <img src="images/sp-lg.jpg" alt="Sao Paulo">
+                <figcaption class = "fc2" id="div-temple4"></figcaption>
+                </picture>
+          </div>
+
+        </main>
+      
+    <footer>
+        <div class="footer-information">
+            <p>&copy;Temple Inn Suites || Idaho, <span id="currentDate"></span></p>
+            <p>Current weather data provided by OpenWeatherMap, under the CC BY-SA 4.0 license. <a id="footer-weather-link" href="https://openweathermap.org/" target="_blank">Visit!</a></p>
+        </div>
+
+        <div class ="footer-social-network">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+            <a href="#" class="fa fa-pinterest"></a>     
+        </div>
+
+    </footer>
+ 
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/get-info-temples.js"></script>
+    <script src="scripts/get-weather.js"></script>
+    <script src="scripts/forecast.js"></script>
+  </body>
+</html>

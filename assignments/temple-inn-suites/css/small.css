@@ -45,6 +45,7 @@ footer
     padding: 12px;
     grid-template-columns: 1fr 1fr;
     font-family: 'Roboto', sans-serif;
+    font-size: 8px;
 }
 
 #header-text
@@ -276,7 +277,7 @@ nav
   
 .temple-grid-item 
 {
-    box-shadow: 0 0 1px #333;
+    box-shadow: 0 0 10px #333;
 }
 
 .temple-grid-item img 
@@ -300,7 +301,7 @@ picture
     text-align: center;
     display: table-caption; 
     caption-side: top;
-    font-size: 25px;
+    font-size: 15px;
     padding: 2px;
     font-weight: bold;
     background-color: rgb(114, 156, 184); 
@@ -325,3 +326,110 @@ figcaption p
     padding: 3px;
 }
 
+/********************************** FORM STORM CODE **************************/
+form 
+{
+    align-content: center;
+}
+form label.top, form div
+{
+	display: block;
+	padding-top: 0.2rem;
+	color: #0f0942;
+    font-size: 10px;
+    text-align:center;
+}
+
+form label.top input , form label.top select, form label.top textarea 
+{
+	-webkit-appearance: none;
+	display: block;
+	font-size: 1rem;
+	border: solid 1px #0f0942;
+	border-radius: 3px;
+	padding: .55rem;
+	color: rgb(95, 118, 167);
+	width: 80%;
+	max-width: 20rem;
+	background-color: rgba(0,0,0,0.1);
+    margin:0 auto;
+}
+
+form input.submitBtn
+{
+    display: block;
+    border:none;
+	background-color: rgb(40, 46, 136);
+	color: white;
+	border-radius: 2rem;
+	padding: 1rem 2rem;
+    width: 100%;
+    max-width: 20rem;
+    margin:12px auto;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+form label.top input:required
+{
+	border-right: red solid 10px;
+}
+
+form label.top input:required:valid
+{
+	border-right: rgb(16, 75, 16) solid 10px;
+}
+  
+form fieldset
+{
+    border-radius: .6rem;
+    border-color: #000;
+    border: solid 1px rgb(5, 36, 18);
+    width: 80%;
+    max-width: 20rem;
+    margin:12px auto;
+    text-align:center;
+    font-size: 10px;
+}
+
+.radio
+{
+    padding: 1rem;
+    
+}
+
+/********************************************* CONTACT PAGE CODE ***********************************/
+.contact-h3
+{
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-grid-container 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+  
+.contact-grid-item 
+{
+    padding: 10px;
+}
+
+#contact-map 
+{
+     width: 280px; 
+     height: 200px;
+     box-shadow: 0 0 5px #333;
+}
+
+#contact-info-para
+{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}

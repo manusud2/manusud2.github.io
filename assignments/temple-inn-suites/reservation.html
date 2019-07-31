@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Oswald|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&effect=shadow-multiple|3d-float" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Temple Inn Suites - CIT230 - Final Project - Web Front-end Development at Brigham Young University-Idaho.">
+    <script src="scripts/hamburger.js"></script>
+    <title>Temple Inn Suites | Bethesda | MD</title>
+  </head>
+
+  <body>
+      
+    <header>
+        
+        <div class="header">
+          <a href="index.html"><img id="header-logo" src="images/logo.png" alt="Temple Inn Suites"></a>
+        </div>
+        
+        <div class="header">
+          <p id="header-text">TEMPLE INN SUITES</p>
+        </div>
+          
+        <div class="header">
+          <div class="header-grid-container">
+            <div id="temp-weather" class="header-weather"></div>
+            <div id="icon-weather" class="header-weather"></div>
+            <div id="city-weather" class="header-weather"></div>
+            <div id="desc-weather" class="header-weather"></div>
+          </div>
+        </div>
+    
+    </header>
+  
+    <nav>
+      <ul class="navigation">
+        <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="temples.html" title="Temples">Temples</a></li>
+        <li><a href="reservation.html" class="active" title="Reservation">Reservation</a></li>
+        <li><a href="services.html" title="Services">Services</a></li>
+        <li><a href="contact.html" title="Contact">Contact Us</a></li>
+      </ul>
+    </nav>
+        
+    <main>
+      <h1>RESERVATION</h1>
+
+
+      <div>
+        <form method="get" action="thanks.html">
+          <label class="top">Full Name* <input type="text" name="fname" pattern="[A-Za-z].{5,}" required></label>
+          <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+          <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+          <label class="top">Country* <input type="text" name="country" pattern="[A-Za-z].{5,}" required></label>
+          <label class="top">Date of Stay* <input type="date" name="date-stay" required></label>
+    
+          <label class="top">Location*
+                <select name="location" required>
+                    <option value="" disabled selected>Select Location.... &#9662;</option></label>
+                    <option value="Campinas">Campinas</option>
+                    <option value="Curitiba">Curitiba</option>
+                    <option value="Recife">Recife</option>
+                    <option value="SaoPaulo">Sao Paulo</option>
+                </select>
+          </label>
+          
+          <label class="top">Room Type*
+                <select name="room-type" required>
+                    <option value="" disabled selected>Select Type of Room.... &#9662;</option></label>
+                    <option value="Single">Single</option>
+                    <option value="Doulble">Double</option>
+                    <option value="Triple">Triple</option>
+                    <option value="Family">Family</option>
+                </select>
+          </label>
+          
+
+          <label class="top">Special Accommodations/Comments
+          <textarea rows="2" cols="50" name="comments">Enter comment or additional information here...</textarea>
+          </label>
+      
+          <input type="submit" name="submit-storm" value="Request Reservation" class="submitBtn">
+
+        </form>
+      </div>
+
+
+    </main>
+      
+    <footer>
+        <div class="footer-information">
+            <p>&copy;Temple Inn Suites || Idaho, <span id="currentDate"></span></p>
+            <p>Current weather data provided by OpenWeatherMap, under the CC BY-SA 4.0 license. <a id="footer-weather-link" href="https://openweathermap.org/" target="_blank">Visit!</a></p>
+        </div>
+
+        <div class ="footer-social-network">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+            <a href="#" class="fa fa-pinterest"></a>     
+        </div>
+
+    </footer>
+ 
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/forecast.js"></script>
+  </body>
+</html>
