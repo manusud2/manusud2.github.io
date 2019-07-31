@@ -460,3 +460,14 @@ form fieldset
     align-items: center;
     padding: 20px;
 }
+
+/********************************************* SUITES PAGE CODE ***********************************/
+.wed-grid-container 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}

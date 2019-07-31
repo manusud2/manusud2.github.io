@@ -178,4 +178,15 @@
     {
         box-shadow: 0 0 20px #333;
     }
-}
+
+     /********************************************* WED PAGE CODE ***********************************/
+     .wed-grid-container 
+     {
+         grid-template-columns: 1fr 1fr;
+     }
+     
+     .wed-grid-item:hover
+     {
+         box-shadow: 0 0 20px #333;
+     }
+ }
