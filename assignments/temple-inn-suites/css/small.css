@@ -442,9 +442,21 @@ form fieldset
     gap: 20px;
     justify-items: center;
     align-items: center;
+    padding: 20px;
 }
   
 .services-ul
 {
     padding: 15px;
+}
+
+/********************************************* SUITES PAGE CODE ***********************************/
+.suites-grid-container 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
 }

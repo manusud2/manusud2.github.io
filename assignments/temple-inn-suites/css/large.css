@@ -168,4 +168,14 @@
         box-shadow: 0 0 20px #333;
     }
 
+    /********************************************* SUITES PAGE CODE ***********************************/
+    .suites-grid-container 
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .suites-grid-item:hover
+    {
+        box-shadow: 0 0 20px #333;
+    }
 }
