@@ -152,4 +152,20 @@
      height: 330px;
      box-shadow: 0 0 7px #333;
     }
+
+    /********************************************* SERVICES PAGE CODE ***********************************/
+    .services-grid-container 
+    {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        justify-items: left;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    .links-home:hover
+    {
+        box-shadow: 0 0 20px #333;
+    }
+
 }

@@ -1,4 +1,4 @@
-var requestURL3 = 'http://api.openweathermap.org/data/2.5/group?id=6322752,3448439,3390760,3467865&units=metric&appid=0534323de95d302eb2a014693fae5d01';
+var requestURL3 = 'https://api.openweathermap.org/data/2.5/group?id=6322752,3448439,3390760,3467865&units=metric&appid=0534323de95d302eb2a014693fae5d01';
 var request3 = new XMLHttpRequest();
 request3.open('GET', requestURL3);
 request3.responseType = 'json';

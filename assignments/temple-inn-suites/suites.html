@@ -40,54 +40,19 @@
     <nav>
       <ul class="navigation">
         <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
-        <li><a href="index.html" class="active" title="Home">Home</a></li>
+        <li><a href="index.html" title="Home">Home</a></li>
         <li><a href="temples.html" title="Temples">Temples</a></li>
         <li><a href="reservation.html" title="Reservation">Reservation</a></li>
-        <li><a href="services.html" title="Services">Services</a></li>
+        <li><a href="services.html" class="active" title="Services">Services</a></li>
         <li><a href="contact.html" title="Contact">Contact Us</a></li>
       </ul>
     </nav>
         
     <main>
-      <h1 id="main-h1">HOME</h1>
+      <h1>SUITES</h1>
 
-      <div class="home-div"> 
-          <div class="slideshow-container">
-            <div class="mySlides fade">
-              <img  src='images/cp-lg.jpg' style='width: 100%;' alt="Brazil Campinas Temple"/>
-              <div class="text">Campinas</div>
-            </div>
-          
-            <div class="mySlides fade">
-                <img  src='images/ct-lg.jpg' style='width: 100%;' alt="Brazil Curitiba Temple"/>
-                <div class="text">Curitiba</div>
-            </div>
-          
-            <div class="mySlides fade">
-                <img  src='images/sp-lg.jpg' style='width: 100%;' alt="Brazil Sao Paulo Temple"/>
-                <div class="text">Sao Paulo</div>
-            </div>
-          
-            <div class="mySlides fade">
-                <img  src='images/rc-lg.jpg' style='width: 100%;' alt="Brazil Recife Temple"/>
-                <div class="text">Recife</div>
-            </div>
-
-            <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
-            <a class="next" onclick='plusSlides(1)'>&#10095;</a>
-          </div>
-        </br>
-
-          <div style='text-align: center;'>
-            <span class="dot" onclick='currentSlide(1)'></span>
-            <span class="dot" onclick='currentSlide(2)'></span>
-            <span class="dot" onclick='currentSlide(3)'></span>
-            <span class="dot" onclick='currentSlide(4)'></span>
-          </div>
-            
-      </div>
-
-   </main>
+    
+        </main>
       
     <footer>
         <div class="footer-information">
@@ -103,11 +68,11 @@
         </div>
 
     </footer>
-  
+ 
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/hamburger.js"></script>
-    <script src="scripts/home-slide.js"></script>
+    <script src="scripts/get-info-temples.js"></script>
+    <script src="scripts/get-weather.js"></script>
     <script src="scripts/forecast.js"></script>
-
   </body>
 </html>

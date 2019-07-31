@@ -119,16 +119,16 @@ footer
 
 /***************************************************************************** Slide Show - Home Page Code */
 .slideshow-container {
-    max-width: 350px;
+    max-width: 300px;
     position: relative;
     margin: auto;
-    padding-top: 10px;
+    padding: 10px;
 }
 
 .mySlides 
 {
   display: none;
-  max-width: 350px;
+  max-width: 300px;
   border: solid 1px black;   
 }
 
@@ -314,7 +314,7 @@ picture
     display: table-caption; 
     caption-side: bottom;
     font-size: 10px;
-    padding: 2px;
+    padding: 8px;
     background-color: rgb(238, 218, 226)
 }
 
@@ -432,4 +432,19 @@ form fieldset
     font-size: 18px;
     text-align: center;
     font-weight: bold;
+}
+
+/********************************************* SERVICES PAGE CODE ***********************************/
+.services-grid-container 
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+  
+.services-ul
+{
+    padding: 15px;
 }
